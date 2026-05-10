@@ -8,9 +8,9 @@
 
 ## Current Status / Next Steps
 
-- **Plan is complete** — architecture, auth flow, LangChain orchestration, blueprint, and all implementation todos are defined.
-- **TODO: Team roster lookup** — Need to query WorkIQ while signed into the `agent365001.onmicrosoft.com` tenant to get the real user names for the Foundry agent instructions. WorkIQ was connected to `mcasalaina@microsoft.com` (corp account) instead of the demo tenant.
-- Once the roster is populated, we can begin implementation starting with `sprint-agent-instructions.md` (todo #1).
+- ✅ **Team roster populated** — queried agent365001.onmicrosoft.com tenant, set up org structure (4 direct reports to Marco).
+- ✅ **`sprint-agent-instructions.md` created** — Foundry agent system prompt with roster, project taxonomy, WorkIQ query patterns, response format, and outreach rules.
+- **Next**: Create A365 hosted agent (`sprint_agent.py`) and scaffolding files (todo #2 and #3).
 
 ## Problem Statement
 
