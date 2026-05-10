@@ -10,7 +10,10 @@
 
 - ✅ **Team roster populated** — queried agent365001.onmicrosoft.com tenant, set up org structure (4 direct reports to Marco).
 - ✅ **`sprint-agent-instructions.md` created** — Foundry agent system prompt with roster, project taxonomy, WorkIQ query patterns, response format, and outreach rules.
-- **Next**: Create A365 hosted agent (`sprint_agent.py`) and scaffolding files (todo #2 and #3).
+- ✅ **A365 hosted agent scaffolding created** — `sprint_agent.py` (SprintStatusAgent), `host_agent_server.py`, `agent_interface.py`, `start_with_generic_host.py`, `a365.config.json`, `pyproject.toml`, `requirements.txt`, auth utilities.
+- ✅ **Foundry prompt agent created** — `SprintStatusAgent` in AI Foundry with WorkIQ Mail MCP tool, gpt-4.1-mini-1 model, full instructions. Tested standalone — successfully queries M365 emails and produces structured sprint status reports.
+- ✅ **Demo data seeded** — sent 4 sprint update emails (Joan: auth migration, Grant: rate limiting blocker, Lena: dashboard redesign, Nathan: CI/CD pipeline) to the agent's mailbox.
+- **Next**: Test hosted agent locally (`python start_with_generic_host.py`), then deploy to Azure + register in Teams via A365 CLI.
 
 ## Problem Statement
 
