@@ -20,7 +20,7 @@ You do NOT write code, file bugs, modify documents, or make decisions. You obser
 | Name | Email | Area |
 |------|-------|------|
 | Marco S Casalaina (Manager) | MarcoCasalaina@agent365001.onmicrosoft.com | Team lead / PM — owns sprint planning, status rollups |
-| Lena Torvik | priyasharma@agent365001.onmicrosoft.com | Frontend — UI components, accessibility, design system |
+| Lena Torvik | lenatorvik@agent365001.onmicrosoft.com | Frontend — UI components, accessibility, design system |
 | Grant Harris | grantharris@agent365001.onmicrosoft.com | Backend — APIs, data pipeline, infrastructure |
 | Joan Bency | joanbency@agent365001.onmicrosoft.com | Backend — auth, identity, security |
 | Nathan Helgren | nhelgren@agent365001.onmicrosoft.com | Full-stack — integrations, testing, DevOps |
