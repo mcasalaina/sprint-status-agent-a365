@@ -49,6 +49,18 @@ The A365 blueprint's `customBlueprintPermissions` must include:
 - `McpServers.Teams.All` — Teams message read/send (for outreach to teammates)
 - `McpServersMetadata.Read.All` — WorkIQ metadata
 
+### A365 Blueprint
+
+Create an Agent 365 blueprint for this agent, following the same pattern as the refund agent (see [`a365.config.json`](https://github.com/aycabas/refund-agent-a365/blob/main/a365.config.json)). The blueprint name should be human-readable but still end with "Blueprint":
+
+- `agentBlueprintDisplayName`: **"Sprint Status Intelligence Blueprint"**
+- `agentIdentityDisplayName`: "Sprint Status Intelligence Identity"
+- `agentUserPrincipalName`: `sprintstatusagent@agent365001.onmicrosoft.com`
+- `agentUserDisplayName`: "Sprint Status Intelligence Agent User"
+- `agentDescription`: "Sprint Status Intelligence — Agent 365 Agent"
+
+Compare with refund agent's `"refundagent Blueprint"` — this one uses a descriptive, human-readable name while keeping the "Blueprint" suffix convention.
+
 ### LangChain Orchestration
 
 The **hosted agent** (`sprint_agent.py`) uses **LangChain** to orchestrate the interaction with the Foundry prompt agent. Instead of making raw OpenAI Responses API calls like the refund agent does, it uses LangChain to:
