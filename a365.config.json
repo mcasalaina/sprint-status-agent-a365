@@ -1,0 +1,39 @@
+{
+  "tenantId": "9c23c1e3-15be-4744-a3d7-027089c33654",
+  "subscriptionId": "9735e1e7-32c7-4396-94e7-822e706eafd1",
+  "resourceGroup": "rg-sprintstatus-a365",
+  "location": "eastus",
+  "environment": "prod",
+  "needDeployment": true,
+  "graphBaseUrl": "https://graph.microsoft.com",
+  "clientAppId": "cf0921df-0f4d-46b5-bdc8-5fe71c48fd1f",
+  "appServicePlanName": "rg-sprintstatus-a365-plan",
+  "appServicePlanSku": "B1",
+  "webAppName": "sprintstatus-webapp",
+  "agentIdentityDisplayName": "Sprint Status Intelligence Identity",
+  "agentBlueprintDisplayName": "Sprint Status Intelligence Blueprint",
+  "agentUserPrincipalName": "sprintstatusagent@agent365001.onmicrosoft.com",
+  "agentUserDisplayName": "Sprint Status Intelligence Agent User",
+  "managerEmail": "MarcoCasalaina@agent365001.onmicrosoft.com",
+  "agentUserUsageLocation": "US",
+  "deploymentProjectPath": "/Users/mcasalaina/src/sprint-status-agent-a365",
+  "agentDescription": "Sprint Status Intelligence — Agent 365 Agent",
+  "messagingEndpoint": "https://sprintstatus-webapp.azurewebsites.net/api/messages",
+  "customBlueprintPermissions": [
+    {
+      "resourceAppId": "ea9ffc3e-8a23-4a7d-836d-234d7c7565c1",
+      "resourceName": "Agent 365 Tools",
+      "scopes": ["McpServers.Mail.All", "McpServers.Teams.All", "McpServersMetadata.Read.All"]
+    },
+    {
+      "resourceAppId": "7d312290-28c8-473c-a0ed-8e53749b6d6d",
+      "resourceName": "Microsoft Cognitive Services",
+      "scopes": ["user_impersonation"]
+    },
+    {
+      "resourceAppId": "18a66f5f-dbdf-4c17-9dd7-1634712a9cbe",
+      "resourceName": "Azure Machine Learning Services",
+      "scopes": ["user_impersonation"]
+    }
+  ]
+}
