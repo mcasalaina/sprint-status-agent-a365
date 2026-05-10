@@ -6,6 +6,12 @@
 > Foundry prompt agent + A365 hosted agent pattern we're replicating here for
 > a different use case.
 
+## Current Status / Next Steps
+
+- **Plan is complete** — architecture, auth flow, LangChain orchestration, blueprint, and all implementation todos are defined.
+- **TODO: Team roster lookup** — Need to query WorkIQ while signed into the `agent365001.onmicrosoft.com` tenant to get the real user names for the Foundry agent instructions. WorkIQ was connected to `mcasalaina@microsoft.com` (corp account) instead of the demo tenant.
+- Once the roster is populated, we can begin implementation starting with `sprint-agent-instructions.md` (todo #1).
+
 ## Problem Statement
 
 Build a two-agent system following the same architecture as the refund agent:
