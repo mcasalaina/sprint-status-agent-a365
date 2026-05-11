@@ -205,7 +205,25 @@ This command:
 5. Registers the messaging endpoint
 6. Stamps credentials into your `.env` file
 
-#### 6c: Verify in Admin Portal
+#### 6c: Publish the manifest
+
+The `a365 setup all` creates the blueprint, but you need to **publish** to make it visible as an AI Teammate:
+
+```bash
+~/.dotnet/tools/a365 publish --aiteammate -v
+```
+
+This generates a `manifest/manifest.zip`. Before packaging, the CLI will prompt you to edit the manifest — fix:
+- `name.short` — must be ≤30 chars (e.g., "Sprint Status Blueprint")
+- `description.short` / `description.full` — meaningful descriptions
+
+Then **manually upload** the zip to the M365 Admin Center:
+1. Go to **https://admin.microsoft.com** → **Agents** → **All agents** → **Upload custom agent**
+2. Upload `manifest/manifest.zip`
+
+> **Important:** This upload step is required. Without it, the agent won't show up with the AI teammate badge in Teams.
+
+#### 6d: Verify in Admin Portal
 
 After setup, your agent should appear at:
 ```
