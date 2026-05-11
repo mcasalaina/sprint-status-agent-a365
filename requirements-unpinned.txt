@@ -1,0 +1,15 @@
+openai>=1.12.0
+azure-ai-projects>=2.0.0b2
+azure-monitor-opentelemetry
+microsoft-agents-hosting-aiohttp
+microsoft-agents-hosting-core
+microsoft-agents-authentication-msal
+microsoft-agents-activity
+python-dotenv
+aiohttp
+microsoft_agents_a365_tooling>=0.1.0
+microsoft_agents_a365_tooling_extensions_agentframework>=0.1.0
+microsoft_agents_a365_observability_core>=0.1.0
+microsoft_agents_a365_observability_extensions_agent_framework>=0.1.0
+microsoft_agents_a365_runtime>=0.1.0
+microsoft_agents_a365_notifications>=0.1.0
