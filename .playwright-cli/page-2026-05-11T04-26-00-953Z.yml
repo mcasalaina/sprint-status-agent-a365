@@ -1,0 +1,45 @@
+- generic [active] [ref=e1]:
+  - banner
+  - generic [ref=e4]:
+    - navigation [ref=e6]:
+      - button "Navigation menu" [expanded] [ref=e7] [cursor=pointer]:
+        - generic [ref=e8]: 
+      - menubar [ref=e10]:
+        - group [ref=e11]:
+          - menuitem "Home" [ref=e12] [cursor=pointer]:
+            - generic: Home
+          - menuitem "Copilot" [ref=e13] [cursor=pointer]:
+            - img [ref=e15]
+            - generic: Copilot
+          - menuitem "Agents" [expanded] [ref=e16] [cursor=pointer]:
+            - img [ref=e18]
+            - generic: Agents
+          - menu "Agents" [ref=e19]:
+            - menuitem "Overview" [ref=e20] [cursor=pointer]:
+              - generic: Overview
+            - menuitem "All agents" [ref=e21] [cursor=pointer]:
+              - generic: All agents
+            - menuitem "Shadow AI" [ref=e22] [cursor=pointer]:
+              - generic: Shadow AI
+            - menuitem "Tools" [ref=e23] [cursor=pointer]:
+              - generic: Tools
+            - menuitem "Settings" [ref=e24] [cursor=pointer]:
+              - generic: Settings
+          - menuitem "Users" [ref=e25] [cursor=pointer]:
+            - generic: Users
+          - menuitem "Devices" [ref=e26] [cursor=pointer]:
+            - generic: Devices
+          - menuitem "Teams & groups" [ref=e27] [cursor=pointer]:
+            - generic: Teams & groups
+          - menuitem "Marketplace" [ref=e28] [cursor=pointer]:
+            - generic: Marketplace
+          - menuitem "Billing" [ref=e29] [cursor=pointer]:
+            - generic: Billing
+          - menuitem "Setup" [ref=e30] [cursor=pointer]:
+            - generic: Setup
+        - menuitem "Customize navigation" [ref=e31] [cursor=pointer]:
+          - generic: Customize navigation
+        - menuitem "Show all" [ref=e32] [cursor=pointer]:
+          - generic: Show all
+    - main [ref=e33]:
+      - generic [ref=e38]: Loading...

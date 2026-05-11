@@ -1,0 +1,1008 @@
+- generic [ref=e1]:
+  - banner [ref=e3]:
+    - banner [ref=e4]:
+      - button [ref=e7] [cursor=pointer]: 
+      - generic [ref=e13]:
+        - link [ref=e17] [cursor=pointer]:
+          - /url: https://admin.cloud.microsoft/
+          - generic [ref=e18]: Microsoft 365 admin center
+        - search [ref=e21]:
+          - button [ref=e23] [cursor=pointer]:
+            - generic [ref=e24]: 
+        - generic [ref=e25]:
+          - button [ref=e28] [cursor=pointer]:
+            - generic [ref=e29]:
+              - img [ref=e31]
+              - generic [ref=e34]: Agent 365 001
+              - separator [ref=e35]
+          - button [ref=e38] [cursor=pointer]:
+            - generic [ref=e39]:
+              - img [ref=e40]
+              - generic [ref=e41]: Copilot
+              - separator [ref=e42]
+          - button [ref=e45] [cursor=pointer]:
+            - img [ref=e47]
+          - button [ref=e51] [cursor=pointer]:
+            - img [ref=e53]
+          - button [ref=e56] [cursor=pointer]:
+            - generic [ref=e57]: 
+          - button [ref=e60] [cursor=pointer]:
+            - generic [ref=e61]: 
+            - generic [ref=e62]: "2"
+        - button [ref=e65] [cursor=pointer]:
+          - generic [ref=e66]: 
+      - generic [ref=e67]:
+        - button [ref=e69] [cursor=pointer]:
+          - generic [ref=e77]: MC
+        - text: 
+  - generic [ref=e79]:
+    - generic [ref=e81]:
+      - navigation [ref=e83]:
+        - button [expanded] [ref=e84] [cursor=pointer]:
+          - generic [ref=e85]: 
+        - menubar [ref=e87]:
+          - group [ref=e88]:
+            - menuitem [ref=e89] [cursor=pointer]:
+              - generic [ref=e90]: 
+              - generic: Home
+            - menuitem [ref=e91] [cursor=pointer]:
+              - img [ref=e93]
+              - generic: Copilot
+              - generic [ref=e94]: 
+            - menuitem [expanded] [ref=e95] [cursor=pointer]:
+              - img [ref=e97]
+              - generic: Agents
+              - generic [ref=e98]: 
+            - menu [ref=e99]:
+              - menuitem [ref=e100] [cursor=pointer]:
+                - generic: Overview
+              - menuitem [ref=e101] [cursor=pointer]:
+                - generic: All agents
+              - menuitem [ref=e102] [cursor=pointer]:
+                - generic: Shadow AI
+              - menuitem [ref=e103] [cursor=pointer]:
+                - generic: Tools
+              - menuitem [ref=e104] [cursor=pointer]:
+                - generic: Settings
+            - menuitem [ref=e105] [cursor=pointer]:
+              - generic [ref=e106]: 
+              - generic: Users
+              - generic [ref=e107]: 
+            - menuitem [ref=e108] [cursor=pointer]:
+              - generic [ref=e109]: 
+              - generic: Devices
+              - generic [ref=e110]: 
+            - menuitem [ref=e111] [cursor=pointer]:
+              - generic [ref=e112]: 
+              - generic: Teams & groups
+              - generic [ref=e113]: 
+            - menuitem [ref=e114] [cursor=pointer]:
+              - generic [ref=e115]: 
+              - generic: Marketplace
+            - menuitem [ref=e116] [cursor=pointer]:
+              - generic [ref=e117]: 
+              - generic: Billing
+              - generic [ref=e118]: 
+            - menuitem [ref=e119] [cursor=pointer]:
+              - generic [ref=e120]: 
+              - generic: Setup
+          - menuitem [ref=e121] [cursor=pointer]:
+            - generic [ref=e122]: 
+            - generic: Customize navigation
+          - menuitem [ref=e123] [cursor=pointer]:
+            - generic [ref=e124]: 
+            - generic: Show all
+      - main [ref=e125]:
+        - generic [ref=e128]:
+          - generic [ref=e129]:
+            - navigation [ref=e136]:
+              - list [ref=e138]:
+                - listitem [ref=e139]:
+                  - link [ref=e140] [cursor=pointer]:
+                    - /url: "#/homepage"
+                    - text: Home
+                  - generic [ref=e141]: 
+                - listitem [ref=e142]:
+                  - link [ref=e143] [cursor=pointer]:
+                    - /url: "#"
+                    - text: All agents
+            - generic [ref=e144]:
+              - heading [level=1] [ref=e145]: All agents
+              - generic [ref=e146]:
+                - img [ref=e147]
+                - generic [ref=e148]: Agent 365
+            - generic [ref=e149]:
+              - text: Monitor and manage agents across your organization.
+              - link [ref=e150] [cursor=pointer]:
+                - /url: https://learn.microsoft.com/en-us/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps?view=o365-worldwide
+                - text: Learn more about managing agents
+          - generic [ref=e152]:
+            - tablist [ref=e153]:
+              - tab [selected] [ref=e154] [cursor=pointer]:
+                - generic:
+                  - generic:
+                    - generic: Registry
+              - tab [ref=e155] [cursor=pointer]:
+                - generic:
+                  - generic:
+                    - generic: Map
+              - tab [ref=e156] [cursor=pointer]:
+                - generic:
+                  - generic:
+                    - generic: Requests
+            - tabpanel [ref=e157]:
+              - generic [ref=e159]:
+                - generic [ref=e160]:
+                  - generic [ref=e162]:
+                    - button [ref=e163] [cursor=pointer]:
+                      - generic [ref=e164]:
+                        - generic [ref=e165]: Total agents
+                        - generic [ref=e166]: 
+                      - generic [ref=e167]: 1,218
+                    - button [ref=e168] [cursor=pointer]:
+                      - generic [ref=e169]:
+                        - generic [ref=e170]: Agents at risk
+                        - generic [ref=e171]: 
+                      - generic [ref=e172]: "9"
+                    - button [ref=e173] [cursor=pointer]:
+                      - generic [ref=e174]:
+                        - generic [ref=e175]: Agents without owners
+                        - generic [ref=e176]: 
+                      - generic [ref=e177]: "0"
+                    - button [ref=e178] [cursor=pointer]:
+                      - generic [ref=e179]:
+                        - generic [ref=e180]: Unmanaged agents
+                        - generic [ref=e181]: 
+                      - generic [ref=e182]: "6"
+                  - generic [ref=e184]:
+                    - generic [ref=e185]:
+                      - generic [ref=e186]: Registry sync
+                      - generic [ref=e187]: (preview)
+                    - generic [ref=e188]:
+                      - button [ref=e189] [cursor=pointer]:
+                        - generic:
+                          - generic:
+                            - generic: Manage
+                      - generic [ref=e190]: ‎2‎ connections
+                - generic [ref=e191]:
+                  - region [ref=e193]:
+                    - region [ref=e194]:
+                      - generic [ref=e195]:
+                        - button [ref=e199] [cursor=pointer]:
+                          - generic [ref=e200]: Status
+                        - button [ref=e204] [cursor=pointer]:
+                          - generic [ref=e205]: Publisher type
+                        - button [ref=e209] [cursor=pointer]:
+                          - generic [ref=e210]: Platform
+                        - button [ref=e214] [cursor=pointer]:
+                          - generic [ref=e215]: Channel
+                        - button [ref=e219] [cursor=pointer]:
+                          - generic [ref=e220]: Data source
+                  - generic [ref=e222]:
+                    - paragraph [ref=e223]: Showing ‎50‎ of ‎1,218‎ total agents
+                    - search [ref=e224]:
+                      - generic [ref=e225]:
+                        - generic [ref=e227]: 
+                        - searchbox [ref=e228]
+                    - menubar [ref=e232]:
+                      - menuitem [ref=e233] [cursor=pointer]:
+                        - generic:
+                          - generic: 
+                          - generic:
+                            - generic: Refresh
+                      - menuitem [ref=e234] [cursor=pointer]:
+                        - generic:
+                          - generic: 
+                          - generic:
+                            - generic: Export
+                      - menuitem [ref=e236] [cursor=pointer]:
+                        - generic:
+                          - generic: 
+                - grid [ref=e240]:
+                  - row [ref=e241]:
+                    - columnheader [ref=e242]:
+                      - button [ref=e244]:
+                        - generic [ref=e245]: Name
+                    - button [ref=e246]
+                    - columnheader [ref=e247]:
+                      - generic [ref=e253] [cursor=pointer]:
+                        - text: Status
+                        - button [ref=e254]:
+                          - generic:
+                            - generic: 
+                    - button [ref=e255]
+                    - columnheader [ref=e256]:
+                      - generic [ref=e259]: Platform
+                    - button [ref=e260]
+                    - columnheader [ref=e261]:
+                      - button [ref=e263]:
+                        - generic [ref=e267] [cursor=pointer]:
+                          - text: Risks
+                          - button [ref=e268]:
+                            - generic:
+                              - generic: 
+                    - button [ref=e269]
+                    - columnheader [ref=e270]:
+                      - button [ref=e272]:
+                        - generic [ref=e273]: Active users
+                    - button [ref=e274]
+                    - columnheader [ref=e275]:
+                      - button [ref=e277]:
+                        - generic [ref=e278]: Total sessions
+                    - button [ref=e279]
+                    - columnheader [ref=e280]:
+                      - button [ref=e282]:
+                        - generic [ref=e283]: Date created
+                        - generic [ref=e284]: 
+                    - button [ref=e285]
+                  - generic [ref=e286]:
+                    - row [ref=e287]:
+                      - gridcell [ref=e288]:
+                        - generic [ref=e289] [cursor=pointer]:
+                          - button [ref=e290]:
+                            - generic [ref=e296]: W365APlayground Identity Agent
+                          - button [ref=e297]:
+                            - generic:
+                              - generic: 
+                      - gridcell [ref=e298]:
+                        - generic [ref=e299]:
+                          - generic [ref=e300]: 
+                          - text: Available
+                      - gridcell [ref=e301]
+                      - gridcell [ref=e302]: —
+                      - gridcell [ref=e303]
+                      - gridcell [ref=e304]
+                      - gridcell [ref=e305]:
+                        - paragraph [ref=e306]: May 10, 2026
+                    - row [ref=e307]:
+                      - gridcell [ref=e308]:
+                        - generic [ref=e309] [cursor=pointer]:
+                          - button [ref=e310]:
+                            - generic [ref=e316]: ZJP PROD CA M365 0510_2
+                          - button [ref=e317]:
+                            - generic:
+                              - generic: 
+                      - gridcell [ref=e318]:
+                        - generic [ref=e319]:
+                          - generic [ref=e320]: 
+                          - text: Available
+                      - gridcell [ref=e321]: Copilot Studio
+                      - gridcell [ref=e322]: "0"
+                      - gridcell [ref=e323]
+                      - gridcell [ref=e324]
+                      - gridcell [ref=e325]:
+                        - paragraph [ref=e326]: May 10, 2026
+                    - row [ref=e327]:
+                      - gridcell [ref=e328]:
+                        - generic [ref=e329] [cursor=pointer]:
+                          - button [ref=e330]:
+                            - generic [ref=e336]: Sales Profiler Agent
+                          - button [ref=e337]:
+                            - generic:
+                              - generic: 
+                      - gridcell [ref=e338]:
+                        - generic [ref=e339]:
+                          - generic [ref=e340]: 
+                          - text: Available
+                      - gridcell [ref=e341]: Copilot Studio
+                      - gridcell [ref=e342]: "0"
+                      - gridcell [ref=e343]
+                      - gridcell [ref=e344]
+                      - gridcell [ref=e345]:
+                        - paragraph [ref=e346]: May 10, 2026
+                    - row [ref=e347]:
+                      - gridcell [ref=e348]:
+                        - generic [ref=e349] [cursor=pointer]:
+                          - button [ref=e350]:
+                            - generic [ref=e356]: D365 Sales - Data Enrichment
+                          - button [ref=e357]:
+                            - generic:
+                              - generic: 
+                      - gridcell [ref=e358]:
+                        - generic [ref=e359]:
+                          - generic [ref=e360]: 
+                          - text: Available
+                      - gridcell [ref=e361]: Copilot Studio
+                      - gridcell [ref=e362]: "0"
+                      - gridcell [ref=e363]
+                      - gridcell [ref=e364]
+                      - gridcell [ref=e365]:
+                        - paragraph [ref=e366]: May 10, 2026
+                    - row [ref=e367]:
+                      - gridcell [ref=e368]:
+                        - generic [ref=e369] [cursor=pointer]:
+                          - button [ref=e370]:
+                            - generic [ref=e376]: Sales Opportunity Agent
+                          - button [ref=e377]:
+                            - generic:
+                              - generic: 
+                      - gridcell [ref=e378]:
+                        - generic [ref=e379]:
+                          - generic [ref=e380]: 
+                          - text: Available
+                      - gridcell [ref=e381]: Copilot Studio
+                      - gridcell [ref=e382]: "0"
+                      - gridcell [ref=e383]
+                      - gridcell [ref=e384]
+                      - gridcell [ref=e385]:
+                        - paragraph [ref=e386]: May 10, 2026
+                    - row [ref=e387]:
+                      - gridcell [ref=e388]:
+                        - generic [ref=e389] [cursor=pointer]:
+                          - button [ref=e390]:
+                            - generic [ref=e396]: Sales Opportunity Agent - Stakeholder
+                          - button [ref=e397]:
+                            - generic:
+                              - generic: 
+                      - gridcell [ref=e398]:
+                        - generic [ref=e399]:
+                          - generic [ref=e400]: 
+                          - text: Available
+                      - gridcell [ref=e401]: Copilot Studio
+                      - gridcell [ref=e402]: "0"
+                      - gridcell [ref=e403]
+                      - gridcell [ref=e404]
+                      - gridcell [ref=e405]:
+                        - paragraph [ref=e406]: May 10, 2026
+                    - row [ref=e407]:
+                      - gridcell [ref=e408]:
+                        - generic [ref=e409] [cursor=pointer]:
+                          - button [ref=e410]:
+                            - generic [ref=e416]: Sales Opportunity Agent - Compete Research
+                          - button [ref=e417]:
+                            - generic:
+                              - generic: 
+                      - gridcell [ref=e418]:
+                        - generic [ref=e419]:
+                          - generic [ref=e420]: 
+                          - text: Available
+                      - gridcell [ref=e421]: Copilot Studio
+                      - gridcell [ref=e422]: "0"
+                      - gridcell [ref=e423]
+                      - gridcell [ref=e424]
+                      - gridcell [ref=e425]:
+                        - paragraph [ref=e426]: May 10, 2026
+                    - row [ref=e427]:
+                      - gridcell [ref=e428]:
+                        - generic [ref=e429] [cursor=pointer]:
+                          - button [ref=e430]:
+                            - generic [ref=e436]: Sales Opportunity Agent - Account Research
+                          - button [ref=e437]:
+                            - generic:
+                              - generic: 
+                      - gridcell [ref=e438]:
+                        - generic [ref=e439]:
+                          - generic [ref=e440]: 
+                          - text: Available
+                      - gridcell [ref=e441]: Copilot Studio
+                      - gridcell [ref=e442]: "0"
+                      - gridcell [ref=e443]
+                      - gridcell [ref=e444]
+                      - gridcell [ref=e445]:
+                        - paragraph [ref=e446]: May 10, 2026
+                    - row [ref=e447]:
+                      - gridcell [ref=e448]:
+                        - generic [ref=e449] [cursor=pointer]:
+                          - button [ref=e450]:
+                            - generic [ref=e456]: Sales Opportunity Agent - Custom Research
+                          - button [ref=e457]:
+                            - generic:
+                              - generic: 
+                      - gridcell [ref=e458]:
+                        - generic [ref=e459]:
+                          - generic [ref=e460]: 
+                          - text: Available
+                      - gridcell [ref=e461]: Copilot Studio
+                      - gridcell [ref=e462]: "0"
+                      - gridcell [ref=e463]
+                      - gridcell [ref=e464]
+                      - gridcell [ref=e465]:
+                        - paragraph [ref=e466]: May 10, 2026
+                    - row [ref=e467]:
+                      - gridcell [ref=e468]:
+                        - generic [ref=e469] [cursor=pointer]:
+                          - button [ref=e470]:
+                            - generic [ref=e476]: D365 Sales - Configuration Agent
+                          - button [ref=e477]:
+                            - generic:
+                              - generic: 
+                      - gridcell [ref=e478]:
+                        - generic [ref=e479]:
+                          - generic [ref=e480]: 
+                          - text: Available
+                      - gridcell [ref=e481]: Copilot Studio
+                      - gridcell [ref=e482]: "0"
+                      - gridcell [ref=e483]
+                      - gridcell [ref=e484]
+                      - gridcell [ref=e485]:
+                        - paragraph [ref=e486]: May 10, 2026
+                    - row [ref=e487]:
+                      - gridcell [ref=e488]:
+                        - generic [ref=e489] [cursor=pointer]:
+                          - button [ref=e490]:
+                            - generic [ref=e496]: Sales Qualification Agent Config Assistant
+                          - button [ref=e497]:
+                            - generic:
+                              - generic: 
+                      - gridcell [ref=e498]:
+                        - generic [ref=e499]:
+                          - generic [ref=e500]: 
+                          - text: Available
+                      - gridcell [ref=e501]: Copilot Studio
+                      - gridcell [ref=e502]: "0"
+                      - gridcell [ref=e503]
+                      - gridcell [ref=e504]
+                      - gridcell [ref=e505]:
+                        - paragraph [ref=e506]: May 10, 2026
+                    - row [ref=e507]:
+                      - gridcell [ref=e508]:
+                        - generic [ref=e509] [cursor=pointer]:
+                          - button [ref=e510]:
+                            - generic [ref=e516]: Sales Close Agent
+                          - button [ref=e517]:
+                            - generic:
+                              - generic: 
+                      - gridcell [ref=e518]:
+                        - generic [ref=e519]:
+                          - generic [ref=e520]: 
+                          - text: Available
+                      - gridcell [ref=e521]: Copilot Studio
+                      - gridcell [ref=e522]: "0"
+                      - gridcell [ref=e523]
+                      - gridcell [ref=e524]
+                      - gridcell [ref=e525]:
+                        - paragraph [ref=e526]: May 10, 2026
+                    - row [ref=e527]:
+                      - gridcell [ref=e528]:
+                        - generic [ref=e529] [cursor=pointer]:
+                          - button [ref=e530]:
+                            - generic [ref=e536]: D365 Sales Agent - Competitor
+                          - button [ref=e537]:
+                            - generic:
+                              - generic: 
+                      - gridcell [ref=e538]:
+                        - generic [ref=e539]:
+                          - generic [ref=e540]: 
+                          - text: Available
+                      - gridcell [ref=e541]: Copilot Studio
+                      - gridcell [ref=e542]: "0"
+                      - gridcell [ref=e543]
+                      - gridcell [ref=e544]
+                      - gridcell [ref=e545]:
+                        - paragraph [ref=e546]: May 10, 2026
+                    - row [ref=e547]:
+                      - gridcell [ref=e548]:
+                        - generic [ref=e549] [cursor=pointer]:
+                          - button [ref=e550]:
+                            - generic [ref=e556]: D365 Sales Agent - Company Resolver
+                          - button [ref=e557]:
+                            - generic:
+                              - generic: 
+                      - gridcell [ref=e558]:
+                        - generic [ref=e559]:
+                          - generic [ref=e560]: 
+                          - text: Available
+                      - gridcell [ref=e561]: Copilot Studio
+                      - gridcell [ref=e562]: "0"
+                      - gridcell [ref=e563]
+                      - gridcell [ref=e564]
+                      - gridcell [ref=e565]:
+                        - paragraph [ref=e566]: May 10, 2026
+                    - row [ref=e567]:
+                      - gridcell [ref=e568]:
+                        - generic [ref=e569] [cursor=pointer]:
+                          - button [ref=e570]:
+                            - generic [ref=e576]: D365 Sales Agent - Readiness
+                          - button [ref=e577]:
+                            - generic:
+                              - generic: 
+                      - gridcell [ref=e578]:
+                        - generic [ref=e579]:
+                          - generic [ref=e580]: 
+                          - text: Available
+                      - gridcell [ref=e581]: Copilot Studio
+                      - gridcell [ref=e582]: "0"
+                      - gridcell [ref=e583]
+                      - gridcell [ref=e584]
+                      - gridcell [ref=e585]:
+                        - paragraph [ref=e586]: May 10, 2026
+                    - row [ref=e587]:
+                      - gridcell [ref=e588]:
+                        - generic [ref=e589] [cursor=pointer]:
+                          - button [ref=e590]:
+                            - generic [ref=e596]: D365 Sales Agent - Summary Synthesizer
+                          - button [ref=e597]:
+                            - generic:
+                              - generic: 
+                      - gridcell [ref=e598]:
+                        - generic [ref=e599]:
+                          - generic [ref=e600]: 
+                          - text: Available
+                      - gridcell [ref=e601]: Copilot Studio
+                      - gridcell [ref=e602]: "0"
+                      - gridcell [ref=e603]
+                      - gridcell [ref=e604]
+                      - gridcell [ref=e605]:
+                        - paragraph [ref=e606]: May 10, 2026
+                    - row [ref=e607]:
+                      - gridcell [ref=e608]:
+                        - generic [ref=e609] [cursor=pointer]:
+                          - button [ref=e610]:
+                            - generic [ref=e616]: D365 Sales Agent - TCP Prefill Agent
+                          - button [ref=e617]:
+                            - generic:
+                              - generic: 
+                      - gridcell [ref=e618]:
+                        - generic [ref=e619]:
+                          - generic [ref=e620]: 
+                          - text: Available
+                      - gridcell [ref=e621]: Copilot Studio
+                      - gridcell [ref=e622]: "0"
+                      - gridcell [ref=e623]
+                      - gridcell [ref=e624]
+                      - gridcell [ref=e625]:
+                        - paragraph [ref=e626]: May 10, 2026
+                    - row [ref=e627]:
+                      - gridcell [ref=e628]:
+                        - generic [ref=e629] [cursor=pointer]:
+                          - button [ref=e630]:
+                            - generic [ref=e636]: D365 Sales Agent - Research
+                          - button [ref=e637]:
+                            - generic:
+                              - generic: 
+                      - gridcell [ref=e638]:
+                        - generic [ref=e639]:
+                          - generic [ref=e640]: 
+                          - text: Available
+                      - gridcell [ref=e641]: Copilot Studio
+                      - gridcell [ref=e642]: "0"
+                      - gridcell [ref=e643]
+                      - gridcell [ref=e644]
+                      - gridcell [ref=e645]:
+                        - paragraph [ref=e646]: May 10, 2026
+                    - row [ref=e647]:
+                      - gridcell [ref=e648]:
+                        - generic [ref=e649] [cursor=pointer]:
+                          - button [ref=e650]:
+                            - generic [ref=e656]: D365 Sales Agent - Email Validation
+                          - button [ref=e657]:
+                            - generic:
+                              - generic: 
+                      - gridcell [ref=e658]:
+                        - generic [ref=e659]:
+                          - generic [ref=e660]: 
+                          - text: Available
+                      - gridcell [ref=e661]: Copilot Studio
+                      - gridcell [ref=e662]: "0"
+                      - gridcell [ref=e663]
+                      - gridcell [ref=e664]
+                      - gridcell [ref=e665]:
+                        - paragraph [ref=e666]: May 10, 2026
+                    - row [ref=e667]:
+                      - gridcell [ref=e668]:
+                        - generic [ref=e669] [cursor=pointer]:
+                          - button [ref=e670]:
+                            - generic [ref=e676]: D365 Sales Agent - Outreach
+                          - button [ref=e677]:
+                            - generic:
+                              - generic: 
+                      - gridcell [ref=e678]:
+                        - generic [ref=e679]:
+                          - generic [ref=e680]: 
+                          - text: Available
+                      - gridcell [ref=e681]: Copilot Studio
+                      - gridcell [ref=e682]: "0"
+                      - gridcell [ref=e683]
+                      - gridcell [ref=e684]
+                      - gridcell [ref=e685]:
+                        - paragraph [ref=e686]: May 10, 2026
+                    - row [ref=e687]:
+                      - gridcell [ref=e688]:
+                        - generic [ref=e689] [cursor=pointer]:
+                          - button [ref=e690]:
+                            - generic [ref=e696]: D365 Sales Agent - Custom Research
+                          - button [ref=e697]:
+                            - generic:
+                              - generic: 
+                      - gridcell [ref=e698]:
+                        - generic [ref=e699]:
+                          - generic [ref=e700]: 
+                          - text: Available
+                      - gridcell [ref=e701]: Copilot Studio
+                      - gridcell [ref=e702]: "0"
+                      - gridcell [ref=e703]
+                      - gridcell [ref=e704]
+                      - gridcell [ref=e705]:
+                        - paragraph [ref=e706]: May 10, 2026
+                    - row [ref=e707]:
+                      - gridcell [ref=e708]:
+                        - generic [ref=e709] [cursor=pointer]:
+                          - button [ref=e710]:
+                            - generic [ref=e716]: D365 Sales Agent - Stakeholder Research
+                          - button [ref=e717]:
+                            - generic:
+                              - generic: 
+                      - gridcell [ref=e718]:
+                        - generic [ref=e719]:
+                          - generic [ref=e720]: 
+                          - text: Available
+                      - gridcell [ref=e721]: Copilot Studio
+                      - gridcell [ref=e722]: "0"
+                      - gridcell [ref=e723]
+                      - gridcell [ref=e724]
+                      - gridcell [ref=e725]:
+                        - paragraph [ref=e726]: May 10, 2026
+                    - row [ref=e727]:
+                      - gridcell [ref=e728]:
+                        - generic [ref=e729] [cursor=pointer]:
+                          - button [ref=e730]:
+                            - generic [ref=e736]: D365 Sales Agent - Engage Autonomous
+                          - button [ref=e737]:
+                            - generic:
+                              - generic: 
+                      - gridcell [ref=e738]:
+                        - generic [ref=e739]:
+                          - generic [ref=e740]: 
+                          - text: Available
+                      - gridcell [ref=e741]: Copilot Studio
+                      - gridcell [ref=e742]: "0"
+                      - gridcell [ref=e743]
+                      - gridcell [ref=e744]
+                      - gridcell [ref=e745]:
+                        - paragraph [ref=e746]: May 10, 2026
+                    - row [ref=e747]:
+                      - gridcell [ref=e748]:
+                        - generic [ref=e749] [cursor=pointer]:
+                          - button [ref=e750]:
+                            - generic [ref=e756]: Dataverse Paul
+                          - button [ref=e757]:
+                            - generic:
+                              - generic: 
+                      - gridcell [ref=e758]:
+                        - generic [ref=e759]:
+                          - generic [ref=e760]: 
+                          - text: Available
+                      - gridcell [ref=e761]
+                      - gridcell [ref=e762]: —
+                      - gridcell [ref=e763]
+                      - gridcell [ref=e764]
+                      - gridcell [ref=e765]:
+                        - paragraph [ref=e766]: May 10, 2026
+                    - row [ref=e767]:
+                      - gridcell [ref=e768]:
+                        - generic [ref=e769] [cursor=pointer]:
+                          - button [ref=e770]:
+                            - generic [ref=e776]: Dataverse Steve
+                          - button [ref=e777]:
+                            - generic:
+                              - generic: 
+                      - gridcell [ref=e778]:
+                        - generic [ref=e779]:
+                          - generic [ref=e780]: 
+                          - text: Blocked
+                      - gridcell [ref=e781]
+                      - gridcell [ref=e782]: —
+                      - gridcell [ref=e783]
+                      - gridcell [ref=e784]
+                      - gridcell [ref=e785]:
+                        - paragraph [ref=e786]: May 10, 2026
+                    - row [ref=e787]:
+                      - gridcell [ref=e788]:
+                        - generic [ref=e789] [cursor=pointer]:
+                          - button [ref=e790]:
+                            - generic [ref=e796]: SprintStatusAgent
+                          - button [ref=e797]:
+                            - generic:
+                              - generic: 
+                      - gridcell [ref=e798]:
+                        - generic [ref=e799]:
+                          - generic [ref=e800]: 
+                          - text: Available
+                      - gridcell [ref=e801]: Microsoft Foundry
+                      - gridcell [ref=e802]: "0"
+                      - gridcell [ref=e803]
+                      - gridcell [ref=e804]
+                      - gridcell [ref=e805]:
+                        - paragraph [ref=e806]: May 10, 2026
+                    - row [ref=e807]:
+                      - gridcell [ref=e808]:
+                        - generic [ref=e809] [cursor=pointer]:
+                          - button [ref=e810]:
+                            - generic [ref=e816]: Box AI Agent
+                          - button [ref=e817]:
+                            - generic:
+                              - generic: 
+                      - gridcell [ref=e818]:
+                        - generic [ref=e819]:
+                          - generic [ref=e820]: 
+                          - text: Available
+                      - gridcell [ref=e821]
+                      - gridcell [ref=e822]: —
+                      - gridcell [ref=e823]
+                      - gridcell [ref=e824]
+                      - gridcell [ref=e825]:
+                        - paragraph [ref=e826]: May 10, 2026
+                    - row [ref=e827]:
+                      - gridcell [ref=e828]:
+                        - generic [ref=e829] [cursor=pointer]:
+                          - button [ref=e830]:
+                            - generic [ref=e836]: Quality Evaluation Agent
+                          - button [ref=e837]:
+                            - generic:
+                              - generic: 
+                      - gridcell [ref=e838]:
+                        - generic [ref=e839]:
+                          - generic [ref=e840]: 
+                          - text: Draft
+                      - gridcell [ref=e841]: Copilot Studio
+                      - gridcell [ref=e842]: "0"
+                      - gridcell [ref=e843]
+                      - gridcell [ref=e844]
+                      - gridcell [ref=e845]:
+                        - paragraph [ref=e846]: May 10, 2026
+                    - row [ref=e847]:
+                      - gridcell [ref=e848]:
+                        - generic [ref=e849] [cursor=pointer]:
+                          - button [ref=e850]:
+                            - generic [ref=e856]: ZJP PROD CA M365 0510_1
+                          - button [ref=e857]:
+                            - generic:
+                              - generic: 
+                      - gridcell [ref=e858]:
+                        - generic [ref=e859]:
+                          - generic [ref=e860]: 
+                          - text: Available
+                      - gridcell [ref=e861]
+                      - gridcell [ref=e862]: —
+                      - gridcell [ref=e863]
+                      - gridcell [ref=e864]
+                      - gridcell [ref=e865]:
+                        - paragraph [ref=e866]: May 10, 2026
+                    - row [ref=e867]:
+                      - gridcell [ref=e868]:
+                        - generic [ref=e869] [cursor=pointer]:
+                          - button [ref=e870]:
+                            - generic [ref=e876]: ZJP PROD CA M365 0510_1
+                          - button [ref=e877]:
+                            - generic:
+                              - generic: 
+                      - gridcell [ref=e878]:
+                        - generic [ref=e879]:
+                          - generic [ref=e880]: 
+                          - text: Available
+                      - gridcell [ref=e881]: Copilot Studio
+                      - gridcell [ref=e882]: "0"
+                      - gridcell [ref=e883]
+                      - gridcell [ref=e884]
+                      - gridcell [ref=e885]:
+                        - paragraph [ref=e886]: May 10, 2026
+                    - row [ref=e887]:
+                      - gridcell [ref=e888]:
+                        - generic [ref=e889] [cursor=pointer]:
+                          - button [ref=e890]:
+                            - generic [ref=e896]: NEW-DA-BCR-1
+                          - button [ref=e897]:
+                            - generic:
+                              - generic: 
+                      - gridcell [ref=e898]:
+                        - generic [ref=e899]:
+                          - generic [ref=e900]: 
+                          - text: Draft
+                      - gridcell [ref=e901]: Copilot Studio
+                      - gridcell [ref=e902]: "0"
+                      - gridcell [ref=e903]
+                      - gridcell [ref=e904]
+                      - gridcell [ref=e905]:
+                        - paragraph [ref=e906]: May 10, 2026
+                    - row [ref=e907]:
+                      - gridcell [ref=e908]:
+                        - generic [ref=e909] [cursor=pointer]:
+                          - button [ref=e910]:
+                            - generic [ref=e916]: DWB 4.6.1
+                          - button [ref=e917]:
+                            - generic:
+                              - generic: 
+                      - gridcell [ref=e918]:
+                        - generic [ref=e919]:
+                          - generic [ref=e920]: 
+                          - text: Available
+                      - gridcell [ref=e921]: Copilot Studio
+                      - gridcell [ref=e922]: "0"
+                      - gridcell [ref=e923]
+                      - gridcell [ref=e924]
+                      - gridcell [ref=e925]:
+                        - paragraph [ref=e926]: May 10, 2026
+                    - row [ref=e927]:
+                      - gridcell [ref=e928]:
+                        - generic [ref=e929] [cursor=pointer]:
+                          - button [ref=e930]:
+                            - generic [ref=e936]: SprintStatusAgent
+                          - button [ref=e937]:
+                            - generic:
+                              - generic: 
+                      - gridcell [ref=e938]:
+                        - generic [ref=e939]:
+                          - generic [ref=e940]: 
+                          - text: Available
+                      - gridcell [ref=e941]: Microsoft Foundry
+                      - gridcell [ref=e942]: "0"
+                      - gridcell [ref=e943]
+                      - gridcell [ref=e944]
+                      - gridcell [ref=e945]:
+                        - paragraph [ref=e946]: May 10, 2026
+                    - row [ref=e947]:
+                      - gridcell [ref=e948]:
+                        - generic [ref=e949] [cursor=pointer]:
+                          - button [ref=e950]:
+                            - generic [ref=e956]: D365 Contact Center Admin AI Agent
+                          - button [ref=e957]:
+                            - generic:
+                              - generic: 
+                      - gridcell [ref=e958]:
+                        - generic [ref=e959]:
+                          - generic [ref=e960]: 
+                          - text: Available
+                      - gridcell [ref=e961]: Copilot Studio
+                      - gridcell [ref=e962]: "0"
+                      - gridcell [ref=e963]
+                      - gridcell [ref=e964]
+                      - gridcell [ref=e965]:
+                        - paragraph [ref=e966]: May 10, 2026
+                    - row [ref=e967]:
+                      - gridcell [ref=e968]:
+                        - generic [ref=e969] [cursor=pointer]:
+                          - button [ref=e970]:
+                            - generic [ref=e976]: Old-DA-BCR-5
+                          - button [ref=e977]:
+                            - generic:
+                              - generic: 
+                      - gridcell [ref=e978]:
+                        - generic [ref=e979]:
+                          - generic [ref=e980]: 
+                          - text: Draft
+                      - gridcell [ref=e981]: Copilot Studio
+                      - gridcell [ref=e982]: "0"
+                      - gridcell [ref=e983]
+                      - gridcell [ref=e984]
+                      - gridcell [ref=e985]:
+                        - paragraph [ref=e986]: May 9, 2026
+                    - row [ref=e987]:
+                      - gridcell [ref=e988]:
+                        - generic [ref=e989] [cursor=pointer]:
+                          - button [ref=e990]:
+                            - generic [ref=e996]: LSEG Workspace
+                          - button [ref=e997]:
+                            - generic:
+                              - generic: 
+                      - gridcell [ref=e998]:
+                        - generic [ref=e999]:
+                          - generic [ref=e1000]: 
+                          - text: Available
+                      - gridcell [ref=e1001]
+                      - gridcell [ref=e1002]: —
+                      - gridcell [ref=e1003]
+                      - gridcell [ref=e1004]
+                      - gridcell [ref=e1005]:
+                        - paragraph [ref=e1006]: May 9, 2026
+                    - row [ref=e1007]:
+                      - gridcell [ref=e1008]:
+                        - generic [ref=e1009] [cursor=pointer]:
+                          - button [ref=e1010]:
+                            - generic [ref=e1016]: Work IQ Agent 1
+                          - button [ref=e1017]:
+                            - generic:
+                              - generic: 
+                      - gridcell [ref=e1018]:
+                        - generic [ref=e1019]:
+                          - generic [ref=e1020]: 
+                          - text: Available
+                      - gridcell [ref=e1021]: Copilot Studio
+                      - gridcell [ref=e1022]: "0"
+                      - gridcell [ref=e1023]
+                      - gridcell [ref=e1024]
+                      - gridcell [ref=e1025]:
+                        - paragraph [ref=e1026]: May 9, 2026
+                    - row [ref=e1027]:
+                      - gridcell [ref=e1028]:
+                        - generic [ref=e1029] [cursor=pointer]:
+                          - button [ref=e1030]:
+                            - generic [ref=e1036]: Zava Project Analysis
+                          - button [ref=e1037]:
+                            - generic:
+                              - generic: 
+                      - gridcell [ref=e1038]:
+                        - generic [ref=e1039]:
+                          - generic [ref=e1040]: 
+                          - text: Draft
+                      - gridcell [ref=e1041]: Copilot Studio
+                      - gridcell [ref=e1042]: "0"
+                      - gridcell [ref=e1043]
+                      - gridcell [ref=e1044]
+                      - gridcell [ref=e1045]:
+                        - paragraph [ref=e1046]: May 9, 2026
+                    - row [ref=e1047]:
+                      - gridcell [ref=e1048]:
+                        - generic [ref=e1049] [cursor=pointer]:
+                          - button [ref=e1050]:
+                            - generic [ref=e1056]: Sales Close Agent
+                          - button [ref=e1057]:
+                            - generic:
+                              - generic: 
+                      - gridcell [ref=e1058]:
+                        - generic [ref=e1059]:
+                          - generic [ref=e1060]: 
+                          - text: Available
+                      - gridcell [ref=e1061]: Copilot Studio
+                      - gridcell [ref=e1062]: "0"
+                      - gridcell [ref=e1063]
+                      - gridcell [ref=e1064]
+                      - gridcell [ref=e1065]:
+                        - paragraph [ref=e1066]: May 9, 2026
+                    - row [ref=e1067]:
+                      - gridcell [ref=e1068]:
+                        - generic [ref=e1069] [cursor=pointer]:
+                          - button [ref=e1070]:
+                            - generic [ref=e1076]: Workday
+                          - button [ref=e1077]:
+                            - generic:
+                              - generic: 
+                      - gridcell [ref=e1078]:
+                        - generic [ref=e1079]:
+                          - generic [ref=e1080]: 
+                          - text: Available
+                      - gridcell [ref=e1081]
+                      - gridcell [ref=e1082]: —
+                      - gridcell [ref=e1083]
+                      - gridcell [ref=e1084]
+                      - gridcell [ref=e1085]:
+                        - paragraph [ref=e1086]: May 9, 2026
+    - button [ref=e1090] [cursor=pointer]:
+      - generic [ref=e1092]: 
+      - paragraph [ref=e1093]: Help & support
+    - button [ref=e1094] [cursor=pointer]:
+      - generic [ref=e1095]:
+        - generic [ref=e1096]: 
+        - generic [ref=e1098]: Give Feedback
+  - generic:
+    - generic:
+      - dialog:
+        - generic [ref=e1102]:
+          - generic [ref=e1106]: Agents > Upload agent
+          - generic [ref=e1108]:
+            - navigation [ref=e1109]:
+              - menubar [ref=e1110]:
+                - menuitem "Current Upload agent" [active] [ref=e1111] [cursor=pointer]:
+                  - img "Current" [ref=e1112]:
+                    - generic [ref=e1114]: 
+                  - generic [ref=e1116]:
+                    - generic [ref=e1117]: Upload agent
+                    - generic [ref=e1118]: Upload agent
+                - menuitem "Not started Publish to users" [ref=e1119] [cursor=pointer]:
+                  - img "Not started" [ref=e1120]
+                  - generic [ref=e1122]:
+                    - generic [ref=e1123]: Publish to users
+                    - generic [ref=e1124]: Publish to users
+                - menuitem "Not started Review & finish" [ref=e1125] [cursor=pointer]:
+                  - img "Not started" [ref=e1126]
+                  - generic [ref=e1128]:
+                    - generic [ref=e1129]: Review & finish
+                    - generic [ref=e1130]: Review & finish
+            - generic [ref=e1131]:
+              - heading "Upload agent to publish" [level=2] [ref=e1132]
+              - generic [ref=e1135]:
+                - alert: Upload custom agent page loaded
+                - generic [ref=e1136]:
+                  - generic [ref=e1137]: Upload manifest file (.zip)
+                  - generic [ref=e1138]:
+                    - textbox "Choose file from your desktop" [ref=e1142]
+                    - button "Choose file to upload" [ref=e1143] [cursor=pointer]:
+                      - generic [ref=e1146]: Choose file
+              - status
+          - generic [ref=e1152]:
+            - generic [ref=e1153]:
+              - button "Back" [disabled] [ref=e1154]:
+                - generic [ref=e1157]: Back
+              - button "Next" [disabled] [ref=e1158]:
+                - generic [ref=e1161]: Next
+            - button "Cancel" [ref=e1163] [cursor=pointer]:
+              - generic [ref=e1166]: Cancel

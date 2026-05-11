@@ -1,0 +1,33 @@
+- generic [ref=e5]:
+  - img "Organization background image" [ref=e6]
+  - generic [ref=e7]:
+    - generic [ref=e13]:
+      - img "Microsoft" [ref=e16]
+      - main [ref=e17]:
+        - generic [ref=e20]:
+          - heading "Pick an account" [level=1] [ref=e24]
+          - list "Pick an account" [ref=e27]:
+            - listitem [ref=e29] [cursor=pointer]:
+              - button "Sign in with MarcoCasalaina@agent365001.onmicrosoft.com work or school account." [active] [ref=e30]:
+                - generic [ref=e33]:
+                  - generic [ref=e34]: Marco S Casalaina
+                  - generic [ref=e35]: MarcoCasalaina@agent365001.onmicrosoft.com
+                  - generic [ref=e36]: Signed in
+              - button "Open menu" [ref=e38]
+            - listitem [ref=e40] [cursor=pointer]:
+              - button "Sign in with mcasalaina@microsoft.com work or school account." [ref=e41]:
+                - generic [ref=e44]:
+                  - generic [ref=e45]: Marco Casalaina
+                  - generic [ref=e46]: mcasalaina@microsoft.com
+                  - generic [ref=e47]: Signed in
+              - button "Open menu" [ref=e49]
+            - listitem [ref=e50] [cursor=pointer]:
+              - button "Use another account" [ref=e51]:
+                - generic [ref=e55]: Use another account
+    - contentinfo [ref=e56]:
+      - generic [ref=e57]:
+        - link "Terms of use" [ref=e58] [cursor=pointer]:
+          - /url: https://www.microsoft.com/en-US/servicesagreement/
+        - link "Privacy & cookies" [ref=e59] [cursor=pointer]:
+          - /url: https://privacy.microsoft.com/en-US/privacystatement
+        - button "Click here for troubleshooting information" [ref=e60] [cursor=pointer]: ...

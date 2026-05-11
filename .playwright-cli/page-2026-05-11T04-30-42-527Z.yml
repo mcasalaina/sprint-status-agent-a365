@@ -1,0 +1,48 @@
+- generic [active] [ref=e1]:
+  - banner
+  - generic [ref=e4]:
+    - navigation [ref=e6]:
+      - button "Navigation menu" [expanded] [ref=e7] [cursor=pointer]:
+        - generic [ref=e8]: 
+      - menubar [ref=e10]:
+        - group [ref=e11]:
+          - menuitem "Home" [ref=e12] [cursor=pointer]:
+            - generic [ref=e13]: 
+            - generic: Home
+          - menuitem "Copilot" [ref=e14] [cursor=pointer]:
+            - img [ref=e16]
+            - generic: Copilot
+            - generic [ref=e17]: 
+          - menuitem "Agents" [ref=e18] [cursor=pointer]:
+            - img [ref=e20]
+            - generic: Agents
+            - generic [ref=e21]: 
+          - menuitem "Users" [ref=e22] [cursor=pointer]:
+            - generic [ref=e23]: 
+            - generic: Users
+            - generic [ref=e24]: 
+          - menuitem "Devices" [ref=e25] [cursor=pointer]:
+            - generic [ref=e26]: 
+            - generic: Devices
+            - generic [ref=e27]: 
+          - menuitem "Teams & groups" [ref=e28] [cursor=pointer]:
+            - generic [ref=e29]: 
+            - generic: Teams & groups
+            - generic [ref=e30]: 
+          - menuitem "Marketplace" [ref=e31] [cursor=pointer]:
+            - generic [ref=e32]: 
+            - generic: Marketplace
+          - menuitem "Billing" [ref=e33] [cursor=pointer]:
+            - generic [ref=e34]: 
+            - generic: Billing
+            - generic [ref=e35]: 
+          - menuitem "Setup" [ref=e36] [cursor=pointer]:
+            - generic [ref=e37]: 
+            - generic: Setup
+        - menuitem "Customize navigation" [ref=e38] [cursor=pointer]:
+          - generic [ref=e39]: 
+          - generic: Customize navigation
+        - menuitem "Show all" [ref=e40] [cursor=pointer]:
+          - generic [ref=e41]: 
+          - generic: Show all
+    - main [ref=e42]

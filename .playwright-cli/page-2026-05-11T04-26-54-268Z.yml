@@ -1,0 +1,968 @@
+- generic [ref=e1]:
+  - banner [ref=e616]:
+    - banner [ref=e617]:
+      - button "App launcher" [ref=e620] [cursor=pointer]: 
+      - generic [ref=e626]:
+        - link "Go to Microsoft 365 admin center" [ref=e630] [cursor=pointer]:
+          - /url: https://admin.cloud.microsoft/
+          - generic "Microsoft 365 admin center" [ref=e631]
+        - search [ref=e634]:
+          - button "Search" [ref=e636] [cursor=pointer]:
+            - generic [ref=e637]: 
+        - generic [ref=e638]:
+          - button "Current Tenant" [ref=e641] [cursor=pointer]:
+            - generic [ref=e642]:
+              - img [ref=e644]
+              - generic [ref=e647]: Agent 365 001
+              - separator [ref=e648]
+          - button "Copilot" [ref=e651] [cursor=pointer]:
+            - generic [ref=e652]:
+              - img "Copilot Icon not found" [ref=e653]
+              - generic [ref=e654]: Copilot
+              - separator [ref=e655]
+          - button "Cloud Shell" [ref=e658] [cursor=pointer]:
+            - img [ref=e660]
+          - button "Microsoft 365 Admin app" [ref=e664] [cursor=pointer]:
+            - img "Mobile App Icon not found" [ref=e666]
+          - button "Switch to Dark Mode" [ref=e669] [cursor=pointer]:
+            - generic [ref=e670]: 
+          - button "Notifications, 2 unread items" [ref=e673] [cursor=pointer]:
+            - generic [ref=e674]: 
+            - generic [ref=e675]: "2"
+        - button "Access additional features" [ref=e678] [cursor=pointer]:
+          - generic [ref=e679]: 
+      - generic [ref=e680]:
+        - button "Account manager for Marco S Casalaina" [ref=e682] [cursor=pointer]:
+          - generic [ref=e690]: MC
+        - generic: 
+  - generic [ref=e2]:
+    - generic [ref=e4]:
+      - navigation [ref=e6]:
+        - button "Navigation menu" [expanded] [ref=e7] [cursor=pointer]:
+          - generic [ref=e8]: 
+        - menubar [ref=e10]:
+          - group [ref=e11]:
+            - menuitem "Home" [ref=e12] [cursor=pointer]:
+              - generic [ref=e39]: 
+              - generic: Home
+            - menuitem "Copilot" [ref=e13] [cursor=pointer]:
+              - img [ref=e15]
+              - generic: Copilot
+              - generic [ref=e40]: 
+            - menuitem "Agents" [expanded] [ref=e16] [cursor=pointer]:
+              - img [ref=e18]
+              - generic: Agents
+              - generic [ref=e41]: 
+            - menu "Agents" [ref=e19]:
+              - menuitem "Overview" [ref=e20] [cursor=pointer]:
+                - generic: Overview
+              - menuitem "All agents" [ref=e21] [cursor=pointer]:
+                - generic: All agents
+              - menuitem "Shadow AI" [ref=e22] [cursor=pointer]:
+                - generic: Shadow AI
+              - menuitem "Tools" [ref=e23] [cursor=pointer]:
+                - generic: Tools
+              - menuitem "Settings" [ref=e24] [cursor=pointer]:
+                - generic: Settings
+            - menuitem "Users" [ref=e25] [cursor=pointer]:
+              - generic [ref=e42]: 
+              - generic: Users
+              - generic [ref=e43]: 
+            - menuitem "Devices" [ref=e26] [cursor=pointer]:
+              - generic [ref=e44]: 
+              - generic: Devices
+              - generic [ref=e45]: 
+            - menuitem "Teams & groups" [ref=e27] [cursor=pointer]:
+              - generic [ref=e46]: 
+              - generic: Teams & groups
+              - generic [ref=e47]: 
+            - menuitem "Marketplace" [ref=e28] [cursor=pointer]:
+              - generic [ref=e48]: 
+              - generic: Marketplace
+            - menuitem "Billing" [ref=e29] [cursor=pointer]:
+              - generic [ref=e49]: 
+              - generic: Billing
+              - generic [ref=e50]: 
+            - menuitem "Setup" [ref=e30] [cursor=pointer]:
+              - generic [ref=e51]: 
+              - generic: Setup
+          - menuitem "Customize navigation" [ref=e31] [cursor=pointer]:
+            - generic [ref=e52]: 
+            - generic: Customize navigation
+          - menuitem "Show all" [ref=e32] [cursor=pointer]:
+            - generic [ref=e53]: 
+            - generic: Show all
+      - main [ref=e33]:
+        - generic [ref=e55]:
+          - generic [ref=e56]:
+            - navigation "Breadcrumb" [ref=e63]:
+              - list [ref=e65]:
+                - listitem [ref=e66]:
+                  - link "Home" [ref=e67] [cursor=pointer]:
+                    - /url: "#/homepage"
+                  - generic [ref=e68]: 
+                - listitem [ref=e69]:
+                  - link "All agents" [ref=e70] [cursor=pointer]:
+                    - /url: "#"
+            - generic [ref=e71]:
+              - heading "All agents" [level=1] [ref=e72]
+              - generic [ref=e73]:
+                - img "Agent 365" [ref=e74]
+                - generic [ref=e75]: Agent 365
+            - generic [ref=e76]:
+              - text: Monitor and manage agents across your organization.
+              - link "Learn more about managing agents" [ref=e77] [cursor=pointer]:
+                - /url: https://learn.microsoft.com/en-us/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps?view=o365-worldwide
+          - generic [ref=e79]:
+            - tablist [ref=e80]:
+              - tab "Registry" [selected] [ref=e81] [cursor=pointer]:
+                - generic:
+                  - generic:
+                    - generic: Registry
+              - tab "Map" [ref=e82] [cursor=pointer]:
+                - generic:
+                  - generic:
+                    - generic: Map
+              - tab "Requests" [ref=e83] [cursor=pointer]:
+                - generic:
+                  - generic:
+                    - generic: Requests
+            - tabpanel "Registry" [ref=e84]:
+              - generic [ref=e86]:
+                - generic [ref=e87]:
+                  - generic [ref=e89]:
+                    - 'button "Total agents: 1,218" [ref=e90] [cursor=pointer]':
+                      - generic [ref=e91]:
+                        - generic [ref=e92]: Total agents
+                        - generic [ref=e93]: 
+                      - generic [ref=e94]: 1,218
+                    - 'button "Agents at risk: 9" [ref=e95] [cursor=pointer]':
+                      - generic [ref=e96]:
+                        - generic [ref=e97]: Agents at risk
+                        - generic [ref=e98]: 
+                      - generic [ref=e99]: "9"
+                    - 'button "Agents without owners: 0" [ref=e100] [cursor=pointer]':
+                      - generic [ref=e101]:
+                        - generic [ref=e102]: Agents without owners
+                        - generic [ref=e103]: 
+                      - generic [ref=e104]: "0"
+                    - 'button "Unmanaged agents: 6" [ref=e105] [cursor=pointer]':
+                      - generic [ref=e106]:
+                        - generic [ref=e107]: Unmanaged agents
+                        - generic [ref=e108]: 
+                      - generic [ref=e109]: "6"
+                  - generic [ref=e111]:
+                    - generic [ref=e112]:
+                      - generic [ref=e113]: Registry sync
+                      - generic [ref=e114]: (preview)
+                    - generic [ref=e115]:
+                      - button "Manage" [ref=e116] [cursor=pointer]:
+                        - generic:
+                          - generic:
+                            - generic: Manage
+                      - generic [ref=e117]: ‎2‎ connections
+                - generic [ref=e118]:
+                  - region "Filters" [ref=e120]:
+                    - region [ref=e121]:
+                      - heading [level=6]
+                      - generic [ref=e122]:
+                        - button "Status" [ref=e126] [cursor=pointer]:
+                          - generic [ref=e127]: Status
+                        - button "Publisher type" [ref=e131] [cursor=pointer]:
+                          - generic [ref=e132]: Publisher type
+                        - button "Platform" [ref=e136] [cursor=pointer]:
+                          - generic [ref=e137]: Platform
+                        - button "Channel" [ref=e141] [cursor=pointer]:
+                          - generic [ref=e142]: Channel
+                        - button "Data source" [ref=e146] [cursor=pointer]:
+                          - generic [ref=e147]: Data source
+                  - generic [ref=e149]:
+                    - paragraph [ref=e150]: Showing ‎50‎ of ‎1,218‎ total agents
+                    - search [ref=e151]:
+                      - generic [ref=e152]:
+                        - generic [ref=e153]:
+                          - generic: 
+                        - searchbox "Search for an Agent" [active] [ref=e155]: Sprint Status
+                        - button "Clear search text" [ref=e1103] [cursor=pointer]:
+                          - generic:
+                            - generic: 
+                    - menubar [ref=e159]:
+                      - menuitem "Refresh" [ref=e160] [cursor=pointer]:
+                        - generic:
+                          - generic: 
+                          - generic:
+                            - generic: Refresh
+                      - menuitem "Export" [ref=e161] [cursor=pointer]:
+                        - generic:
+                          - generic: 
+                          - generic:
+                            - generic: Export
+                      - menuitem "More actions" [ref=e163] [cursor=pointer]:
+                        - generic:
+                          - generic: 
+                - grid "Agents" [ref=e167]:
+                  - row "Name column with sorting enabled Status Platform Risks column with sorting enabled Active users column with sorting enabled Total sessions column with sorting enabled Date created" [ref=e168]:
+                    - columnheader "Name column with sorting enabled" [ref=e169]:
+                      - button "Name column with sorting enabled" [ref=e171]:
+                        - generic [ref=e172]: Name
+                    - button [ref=e173]
+                    - columnheader "Status" [ref=e174]:
+                      - generic [ref=e180] [cursor=pointer]:
+                        - text: Status
+                        - button "Available agents can be used by people in your organization. Blocked agents can't be used by anyone." [ref=e181]:
+                          - generic:
+                            - generic: 
+                    - button [ref=e182]
+                    - columnheader "Platform" [ref=e183]:
+                      - generic [ref=e186]: Platform
+                    - button [ref=e187]
+                    - columnheader "Risks column with sorting enabled" [ref=e188]:
+                      - button "Risks column with sorting enabled" [ref=e190]:
+                        - generic [ref=e194] [cursor=pointer]:
+                          - text: Risks
+                          - button "Only high severity risks are included. Zero high risks isn't an indication of overall risk. Other risks can be found in your security platforms." [ref=e195]:
+                            - generic:
+                              - generic: 
+                    - button [ref=e196]
+                    - columnheader "Active users column with sorting enabled" [ref=e197]:
+                      - button "Active users column with sorting enabled" [ref=e199]:
+                        - generic [ref=e200]: Active users
+                    - button [ref=e201]
+                    - columnheader "Total sessions column with sorting enabled" [ref=e202]:
+                      - button "Total sessions column with sorting enabled" [ref=e204]:
+                        - generic [ref=e205]: Total sessions
+                    - button [ref=e206]
+                    - columnheader "Date created" [ref=e207]:
+                      - button "Date created" [ref=e209]:
+                        - generic [ref=e210]: Date created
+                        - generic [ref=e211]: 
+                    - button [ref=e212]
+                  - generic [ref=e213]:
+                    - row "W365APlayground Identity Agent Edit Row Available — May 10, 2026" [ref=e214]:
+                      - gridcell "W365APlayground Identity Agent Edit Row" [ref=e215]:
+                        - generic [ref=e216] [cursor=pointer]:
+                          - button "W365APlayground Identity Agent" [ref=e217]:
+                            - generic [ref=e223]: W365APlayground Identity Agent
+                          - button "Edit Row" [ref=e224]:
+                            - generic:
+                              - generic: 
+                      - gridcell "Available" [ref=e225]:
+                        - generic [ref=e226]:
+                          - generic [ref=e227]: 
+                          - text: Available
+                      - gridcell [ref=e228]
+                      - gridcell "—" [ref=e229]
+                      - gridcell [ref=e230]
+                      - gridcell [ref=e231]
+                      - gridcell "May 10, 2026" [ref=e232]:
+                        - paragraph [ref=e233]: May 10, 2026
+                    - row "ZJP PROD CA M365 0510_2 Edit Row Available Copilot Studio 0 May 10, 2026" [ref=e234]:
+                      - gridcell "ZJP PROD CA M365 0510_2 Edit Row" [ref=e235]:
+                        - generic [ref=e236] [cursor=pointer]:
+                          - button "ZJP PROD CA M365 0510_2" [ref=e237]:
+                            - generic [ref=e243]: ZJP PROD CA M365 0510_2
+                          - button "Edit Row" [ref=e244]:
+                            - generic:
+                              - generic: 
+                      - gridcell "Available" [ref=e245]:
+                        - generic [ref=e246]:
+                          - generic [ref=e247]: 
+                          - text: Available
+                      - gridcell "Copilot Studio" [ref=e248]
+                      - gridcell "0" [ref=e249]
+                      - gridcell [ref=e250]
+                      - gridcell [ref=e251]
+                      - gridcell "May 10, 2026" [ref=e252]:
+                        - paragraph [ref=e253]: May 10, 2026
+                    - row "Sales Profiler Agent Edit Row Available Copilot Studio 0 May 10, 2026" [ref=e254]:
+                      - gridcell "Sales Profiler Agent Edit Row" [ref=e255]:
+                        - generic [ref=e256] [cursor=pointer]:
+                          - button "Sales Profiler Agent" [ref=e257]:
+                            - generic [ref=e263]: Sales Profiler Agent
+                          - button "Edit Row" [ref=e264]:
+                            - generic:
+                              - generic: 
+                      - gridcell "Available" [ref=e265]:
+                        - generic [ref=e266]:
+                          - generic [ref=e267]: 
+                          - text: Available
+                      - gridcell "Copilot Studio" [ref=e268]
+                      - gridcell "0" [ref=e269]
+                      - gridcell [ref=e270]
+                      - gridcell [ref=e271]
+                      - gridcell "May 10, 2026" [ref=e272]:
+                        - paragraph [ref=e273]: May 10, 2026
+                    - row "D365 Sales - Data Enrichment Edit Row Available Copilot Studio 0 May 10, 2026" [ref=e274]:
+                      - gridcell "D365 Sales - Data Enrichment Edit Row" [ref=e275]:
+                        - generic [ref=e276] [cursor=pointer]:
+                          - button "D365 Sales - Data Enrichment" [ref=e277]:
+                            - generic [ref=e283]: D365 Sales - Data Enrichment
+                          - button "Edit Row" [ref=e284]:
+                            - generic:
+                              - generic: 
+                      - gridcell "Available" [ref=e285]:
+                        - generic [ref=e286]:
+                          - generic [ref=e287]: 
+                          - text: Available
+                      - gridcell "Copilot Studio" [ref=e288]
+                      - gridcell "0" [ref=e289]
+                      - gridcell [ref=e290]
+                      - gridcell [ref=e291]
+                      - gridcell "May 10, 2026" [ref=e292]:
+                        - paragraph [ref=e293]: May 10, 2026
+                    - row "Sales Opportunity Agent Edit Row Available Copilot Studio 0 May 10, 2026" [ref=e294]:
+                      - gridcell "Sales Opportunity Agent Edit Row" [ref=e295]:
+                        - generic [ref=e296] [cursor=pointer]:
+                          - button "Sales Opportunity Agent" [ref=e297]:
+                            - generic [ref=e303]: Sales Opportunity Agent
+                          - button "Edit Row" [ref=e304]:
+                            - generic:
+                              - generic: 
+                      - gridcell "Available" [ref=e305]:
+                        - generic [ref=e306]:
+                          - generic [ref=e307]: 
+                          - text: Available
+                      - gridcell "Copilot Studio" [ref=e308]
+                      - gridcell "0" [ref=e309]
+                      - gridcell [ref=e310]
+                      - gridcell [ref=e311]
+                      - gridcell "May 10, 2026" [ref=e312]:
+                        - paragraph [ref=e313]: May 10, 2026
+                    - row "Sales Opportunity Agent - Stakeholder Edit Row Available Copilot Studio 0 May 10, 2026" [ref=e314]:
+                      - gridcell "Sales Opportunity Agent - Stakeholder Edit Row" [ref=e315]:
+                        - generic [ref=e316] [cursor=pointer]:
+                          - button "Sales Opportunity Agent - Stakeholder" [ref=e317]:
+                            - generic [ref=e323]: Sales Opportunity Agent - Stakeholder
+                          - button "Edit Row" [ref=e324]:
+                            - generic:
+                              - generic: 
+                      - gridcell "Available" [ref=e325]:
+                        - generic [ref=e326]:
+                          - generic [ref=e327]: 
+                          - text: Available
+                      - gridcell "Copilot Studio" [ref=e328]
+                      - gridcell "0" [ref=e329]
+                      - gridcell [ref=e330]
+                      - gridcell [ref=e331]
+                      - gridcell "May 10, 2026" [ref=e332]:
+                        - paragraph [ref=e333]: May 10, 2026
+                    - row "Sales Opportunity Agent - Compete Research Edit Row Available Copilot Studio 0 May 10, 2026" [ref=e334]:
+                      - gridcell "Sales Opportunity Agent - Compete Research Edit Row" [ref=e335]:
+                        - generic [ref=e336] [cursor=pointer]:
+                          - button "Sales Opportunity Agent - Compete Research" [ref=e337]:
+                            - generic [ref=e343]: Sales Opportunity Agent - Compete Research
+                          - button "Edit Row" [ref=e344]:
+                            - generic:
+                              - generic: 
+                      - gridcell "Available" [ref=e345]:
+                        - generic [ref=e346]:
+                          - generic [ref=e347]: 
+                          - text: Available
+                      - gridcell "Copilot Studio" [ref=e348]
+                      - gridcell "0" [ref=e349]
+                      - gridcell [ref=e350]
+                      - gridcell [ref=e351]
+                      - gridcell "May 10, 2026" [ref=e352]:
+                        - paragraph [ref=e353]: May 10, 2026
+                    - row "Sales Opportunity Agent - Account Research Edit Row Available Copilot Studio 0 May 10, 2026" [ref=e354]:
+                      - gridcell "Sales Opportunity Agent - Account Research Edit Row" [ref=e355]:
+                        - generic [ref=e356] [cursor=pointer]:
+                          - button "Sales Opportunity Agent - Account Research" [ref=e357]:
+                            - generic [ref=e363]: Sales Opportunity Agent - Account Research
+                          - button "Edit Row" [ref=e364]:
+                            - generic:
+                              - generic: 
+                      - gridcell "Available" [ref=e365]:
+                        - generic [ref=e366]:
+                          - generic [ref=e367]: 
+                          - text: Available
+                      - gridcell "Copilot Studio" [ref=e368]
+                      - gridcell "0" [ref=e369]
+                      - gridcell [ref=e370]
+                      - gridcell [ref=e371]
+                      - gridcell "May 10, 2026" [ref=e372]:
+                        - paragraph [ref=e373]: May 10, 2026
+                    - row "Sales Opportunity Agent - Custom Research Edit Row Available Copilot Studio 0 May 10, 2026" [ref=e374]:
+                      - gridcell "Sales Opportunity Agent - Custom Research Edit Row" [ref=e375]:
+                        - generic [ref=e376] [cursor=pointer]:
+                          - button "Sales Opportunity Agent - Custom Research" [ref=e377]:
+                            - generic [ref=e383]: Sales Opportunity Agent - Custom Research
+                          - button "Edit Row" [ref=e384]:
+                            - generic:
+                              - generic: 
+                      - gridcell "Available" [ref=e385]:
+                        - generic [ref=e386]:
+                          - generic [ref=e387]: 
+                          - text: Available
+                      - gridcell "Copilot Studio" [ref=e388]
+                      - gridcell "0" [ref=e389]
+                      - gridcell [ref=e390]
+                      - gridcell [ref=e391]
+                      - gridcell "May 10, 2026" [ref=e392]:
+                        - paragraph [ref=e393]: May 10, 2026
+                    - row "D365 Sales - Configuration Agent Edit Row Available Copilot Studio 0 May 10, 2026" [ref=e394]:
+                      - gridcell "D365 Sales - Configuration Agent Edit Row" [ref=e395]:
+                        - generic [ref=e396] [cursor=pointer]:
+                          - button "D365 Sales - Configuration Agent" [ref=e397]:
+                            - generic [ref=e403]: D365 Sales - Configuration Agent
+                          - button "Edit Row" [ref=e404]:
+                            - generic:
+                              - generic: 
+                      - gridcell "Available" [ref=e405]:
+                        - generic [ref=e406]:
+                          - generic [ref=e407]: 
+                          - text: Available
+                      - gridcell "Copilot Studio" [ref=e408]
+                      - gridcell "0" [ref=e409]
+                      - gridcell [ref=e410]
+                      - gridcell [ref=e411]
+                      - gridcell "May 10, 2026" [ref=e412]:
+                        - paragraph [ref=e413]: May 10, 2026
+                    - row "Sales Qualification Agent Config Assistant Edit Row Available Copilot Studio 0 May 10, 2026" [ref=e414]:
+                      - gridcell "Sales Qualification Agent Config Assistant Edit Row" [ref=e415]:
+                        - generic [ref=e416] [cursor=pointer]:
+                          - button "Sales Qualification Agent Config Assistant" [ref=e417]:
+                            - generic [ref=e423]: Sales Qualification Agent Config Assistant
+                          - button "Edit Row" [ref=e424]:
+                            - generic:
+                              - generic: 
+                      - gridcell "Available" [ref=e425]:
+                        - generic [ref=e426]:
+                          - generic [ref=e427]: 
+                          - text: Available
+                      - gridcell "Copilot Studio" [ref=e428]
+                      - gridcell "0" [ref=e429]
+                      - gridcell [ref=e430]
+                      - gridcell [ref=e431]
+                      - gridcell "May 10, 2026" [ref=e432]:
+                        - paragraph [ref=e433]: May 10, 2026
+                    - row "Sales Close Agent Edit Row Available Copilot Studio 0 May 10, 2026" [ref=e434]:
+                      - gridcell "Sales Close Agent Edit Row" [ref=e435]:
+                        - generic [ref=e436] [cursor=pointer]:
+                          - button "Sales Close Agent" [ref=e437]:
+                            - generic [ref=e443]: Sales Close Agent
+                          - button "Edit Row" [ref=e444]:
+                            - generic:
+                              - generic: 
+                      - gridcell "Available" [ref=e445]:
+                        - generic [ref=e446]:
+                          - generic [ref=e447]: 
+                          - text: Available
+                      - gridcell "Copilot Studio" [ref=e448]
+                      - gridcell "0" [ref=e449]
+                      - gridcell [ref=e450]
+                      - gridcell [ref=e451]
+                      - gridcell "May 10, 2026" [ref=e452]:
+                        - paragraph [ref=e453]: May 10, 2026
+                    - row "D365 Sales Agent - Competitor Edit Row Available Copilot Studio 0 May 10, 2026" [ref=e454]:
+                      - gridcell "D365 Sales Agent - Competitor Edit Row" [ref=e455]:
+                        - generic [ref=e456] [cursor=pointer]:
+                          - button "D365 Sales Agent - Competitor" [ref=e457]:
+                            - generic [ref=e463]: D365 Sales Agent - Competitor
+                          - button "Edit Row" [ref=e464]:
+                            - generic:
+                              - generic: 
+                      - gridcell "Available" [ref=e465]:
+                        - generic [ref=e466]:
+                          - generic [ref=e467]: 
+                          - text: Available
+                      - gridcell "Copilot Studio" [ref=e468]
+                      - gridcell "0" [ref=e469]
+                      - gridcell [ref=e470]
+                      - gridcell [ref=e471]
+                      - gridcell "May 10, 2026" [ref=e472]:
+                        - paragraph [ref=e473]: May 10, 2026
+                    - row "D365 Sales Agent - Company Resolver Edit Row Available Copilot Studio 0 May 10, 2026" [ref=e474]:
+                      - gridcell "D365 Sales Agent - Company Resolver Edit Row" [ref=e475]:
+                        - generic [ref=e476] [cursor=pointer]:
+                          - button "D365 Sales Agent - Company Resolver" [ref=e477]:
+                            - generic [ref=e483]: D365 Sales Agent - Company Resolver
+                          - button "Edit Row" [ref=e484]:
+                            - generic:
+                              - generic: 
+                      - gridcell "Available" [ref=e485]:
+                        - generic [ref=e486]:
+                          - generic [ref=e487]: 
+                          - text: Available
+                      - gridcell "Copilot Studio" [ref=e488]
+                      - gridcell "0" [ref=e489]
+                      - gridcell [ref=e490]
+                      - gridcell [ref=e491]
+                      - gridcell "May 10, 2026" [ref=e492]:
+                        - paragraph [ref=e493]: May 10, 2026
+                    - row "D365 Sales Agent - Readiness Edit Row Available Copilot Studio 0 May 10, 2026" [ref=e494]:
+                      - gridcell "D365 Sales Agent - Readiness Edit Row" [ref=e495]:
+                        - generic [ref=e496] [cursor=pointer]:
+                          - button "D365 Sales Agent - Readiness" [ref=e497]:
+                            - generic [ref=e503]: D365 Sales Agent - Readiness
+                          - button "Edit Row" [ref=e504]:
+                            - generic:
+                              - generic: 
+                      - gridcell "Available" [ref=e505]:
+                        - generic [ref=e506]:
+                          - generic [ref=e507]: 
+                          - text: Available
+                      - gridcell "Copilot Studio" [ref=e508]
+                      - gridcell "0" [ref=e509]
+                      - gridcell [ref=e510]
+                      - gridcell [ref=e511]
+                      - gridcell "May 10, 2026" [ref=e512]:
+                        - paragraph [ref=e513]: May 10, 2026
+                    - row "D365 Sales Agent - Summary Synthesizer Edit Row Available Copilot Studio 0 May 10, 2026" [ref=e514]:
+                      - gridcell "D365 Sales Agent - Summary Synthesizer Edit Row" [ref=e515]:
+                        - generic [ref=e516] [cursor=pointer]:
+                          - button "D365 Sales Agent - Summary Synthesizer" [ref=e517]:
+                            - generic [ref=e523]: D365 Sales Agent - Summary Synthesizer
+                          - button "Edit Row" [ref=e524]:
+                            - generic:
+                              - generic: 
+                      - gridcell "Available" [ref=e525]:
+                        - generic [ref=e526]:
+                          - generic [ref=e527]: 
+                          - text: Available
+                      - gridcell "Copilot Studio" [ref=e528]
+                      - gridcell "0" [ref=e529]
+                      - gridcell [ref=e530]
+                      - gridcell [ref=e531]
+                      - gridcell "May 10, 2026" [ref=e532]:
+                        - paragraph [ref=e533]: May 10, 2026
+                    - row "D365 Sales Agent - TCP Prefill Agent Edit Row Available Copilot Studio 0 May 10, 2026" [ref=e534]:
+                      - gridcell "D365 Sales Agent - TCP Prefill Agent Edit Row" [ref=e535]:
+                        - generic [ref=e536] [cursor=pointer]:
+                          - button "D365 Sales Agent - TCP Prefill Agent" [ref=e537]:
+                            - generic [ref=e543]: D365 Sales Agent - TCP Prefill Agent
+                          - button "Edit Row" [ref=e544]:
+                            - generic:
+                              - generic: 
+                      - gridcell "Available" [ref=e545]:
+                        - generic [ref=e546]:
+                          - generic [ref=e547]: 
+                          - text: Available
+                      - gridcell "Copilot Studio" [ref=e548]
+                      - gridcell "0" [ref=e549]
+                      - gridcell [ref=e550]
+                      - gridcell [ref=e551]
+                      - gridcell "May 10, 2026" [ref=e552]:
+                        - paragraph [ref=e553]: May 10, 2026
+                    - row "D365 Sales Agent - Research Edit Row Available Copilot Studio 0 May 10, 2026" [ref=e554]:
+                      - gridcell "D365 Sales Agent - Research Edit Row" [ref=e555]:
+                        - generic [ref=e556] [cursor=pointer]:
+                          - button "D365 Sales Agent - Research" [ref=e557]:
+                            - generic [ref=e563]: D365 Sales Agent - Research
+                          - button "Edit Row" [ref=e564]:
+                            - generic:
+                              - generic: 
+                      - gridcell "Available" [ref=e565]:
+                        - generic [ref=e566]:
+                          - generic [ref=e567]: 
+                          - text: Available
+                      - gridcell "Copilot Studio" [ref=e568]
+                      - gridcell "0" [ref=e569]
+                      - gridcell [ref=e570]
+                      - gridcell [ref=e571]
+                      - gridcell "May 10, 2026" [ref=e572]:
+                        - paragraph [ref=e573]: May 10, 2026
+                    - row "D365 Sales Agent - Email Validation Edit Row Available Copilot Studio 0 May 10, 2026" [ref=e574]:
+                      - gridcell "D365 Sales Agent - Email Validation Edit Row" [ref=e575]:
+                        - generic [ref=e576] [cursor=pointer]:
+                          - button "D365 Sales Agent - Email Validation" [ref=e577]:
+                            - generic [ref=e583]: D365 Sales Agent - Email Validation
+                          - button "Edit Row" [ref=e584]:
+                            - generic:
+                              - generic: 
+                      - gridcell "Available" [ref=e585]:
+                        - generic [ref=e586]:
+                          - generic [ref=e587]: 
+                          - text: Available
+                      - gridcell "Copilot Studio" [ref=e588]
+                      - gridcell "0" [ref=e589]
+                      - gridcell [ref=e590]
+                      - gridcell [ref=e591]
+                      - gridcell "May 10, 2026" [ref=e592]:
+                        - paragraph [ref=e593]: May 10, 2026
+                    - row "D365 Sales Agent - Outreach Edit Row Available Copilot Studio 0 May 10, 2026" [ref=e594]:
+                      - gridcell "D365 Sales Agent - Outreach Edit Row" [ref=e595]:
+                        - generic [ref=e596] [cursor=pointer]:
+                          - button "D365 Sales Agent - Outreach" [ref=e597]:
+                            - generic [ref=e603]: D365 Sales Agent - Outreach
+                          - button "Edit Row" [ref=e604]:
+                            - generic:
+                              - generic: 
+                      - gridcell "Available" [ref=e605]:
+                        - generic [ref=e606]:
+                          - generic [ref=e607]: 
+                          - text: Available
+                      - gridcell "Copilot Studio" [ref=e608]
+                      - gridcell "0" [ref=e609]
+                      - gridcell [ref=e610]
+                      - gridcell [ref=e611]
+                      - gridcell "May 10, 2026" [ref=e612]:
+                        - paragraph [ref=e613]: May 10, 2026
+                    - row "D365 Sales Agent - Custom Research Edit Row Available Copilot Studio 0 May 10, 2026" [ref=e692]:
+                      - gridcell "D365 Sales Agent - Custom Research Edit Row" [ref=e693]:
+                        - generic [ref=e694] [cursor=pointer]:
+                          - button "D365 Sales Agent - Custom Research" [ref=e695]:
+                            - generic [ref=e701]: D365 Sales Agent - Custom Research
+                          - button "Edit Row" [ref=e702]:
+                            - generic:
+                              - generic: 
+                      - gridcell "Available" [ref=e703]:
+                        - generic [ref=e704]:
+                          - generic [ref=e705]: 
+                          - text: Available
+                      - gridcell "Copilot Studio" [ref=e706]
+                      - gridcell "0" [ref=e707]
+                      - gridcell [ref=e708]
+                      - gridcell [ref=e709]
+                      - gridcell "May 10, 2026" [ref=e710]:
+                        - paragraph [ref=e711]: May 10, 2026
+                    - row "D365 Sales Agent - Stakeholder Research Edit Row Available Copilot Studio 0 May 10, 2026" [ref=e712]:
+                      - gridcell "D365 Sales Agent - Stakeholder Research Edit Row" [ref=e713]:
+                        - generic [ref=e714] [cursor=pointer]:
+                          - button "D365 Sales Agent - Stakeholder Research" [ref=e715]:
+                            - generic [ref=e721]: D365 Sales Agent - Stakeholder Research
+                          - button "Edit Row" [ref=e722]:
+                            - generic:
+                              - generic: 
+                      - gridcell "Available" [ref=e723]:
+                        - generic [ref=e724]:
+                          - generic [ref=e725]: 
+                          - text: Available
+                      - gridcell "Copilot Studio" [ref=e726]
+                      - gridcell "0" [ref=e727]
+                      - gridcell [ref=e728]
+                      - gridcell [ref=e729]
+                      - gridcell "May 10, 2026" [ref=e730]:
+                        - paragraph [ref=e731]: May 10, 2026
+                    - row "D365 Sales Agent - Engage Autonomous Edit Row Available Copilot Studio 0 May 10, 2026" [ref=e732]:
+                      - gridcell "D365 Sales Agent - Engage Autonomous Edit Row" [ref=e733]:
+                        - generic [ref=e734] [cursor=pointer]:
+                          - button "D365 Sales Agent - Engage Autonomous" [ref=e735]:
+                            - generic [ref=e741]: D365 Sales Agent - Engage Autonomous
+                          - button "Edit Row" [ref=e742]:
+                            - generic:
+                              - generic: 
+                      - gridcell "Available" [ref=e743]:
+                        - generic [ref=e744]:
+                          - generic [ref=e745]: 
+                          - text: Available
+                      - gridcell "Copilot Studio" [ref=e746]
+                      - gridcell "0" [ref=e747]
+                      - gridcell [ref=e748]
+                      - gridcell [ref=e749]
+                      - gridcell "May 10, 2026" [ref=e750]:
+                        - paragraph [ref=e751]: May 10, 2026
+                    - row "Dataverse Paul Edit Row Available — May 10, 2026" [ref=e752]:
+                      - gridcell "Dataverse Paul Edit Row" [ref=e753]:
+                        - generic [ref=e754] [cursor=pointer]:
+                          - button "Dataverse Paul" [ref=e755]:
+                            - generic [ref=e761]: Dataverse Paul
+                          - button "Edit Row" [ref=e762]:
+                            - generic:
+                              - generic: 
+                      - gridcell "Available" [ref=e763]:
+                        - generic [ref=e764]:
+                          - generic [ref=e765]: 
+                          - text: Available
+                      - gridcell [ref=e766]
+                      - gridcell "—" [ref=e767]
+                      - gridcell [ref=e768]
+                      - gridcell [ref=e769]
+                      - gridcell "May 10, 2026" [ref=e770]:
+                        - paragraph [ref=e771]: May 10, 2026
+                    - row "Dataverse Steve Edit Row Blocked — May 10, 2026" [ref=e772]:
+                      - gridcell "Dataverse Steve Edit Row" [ref=e773]:
+                        - generic [ref=e774] [cursor=pointer]:
+                          - button "Dataverse Steve" [ref=e775]:
+                            - generic [ref=e781]: Dataverse Steve
+                          - button "Edit Row" [ref=e782]:
+                            - generic:
+                              - generic: 
+                      - gridcell "Blocked" [ref=e783]:
+                        - generic [ref=e784]:
+                          - generic [ref=e785]: 
+                          - text: Blocked
+                      - gridcell [ref=e786]
+                      - gridcell "—" [ref=e787]
+                      - gridcell [ref=e788]
+                      - gridcell [ref=e789]
+                      - gridcell "May 10, 2026" [ref=e790]:
+                        - paragraph [ref=e791]: May 10, 2026
+                    - row "SprintStatusAgent Edit Row Available Microsoft Foundry 0 May 10, 2026" [ref=e792]:
+                      - gridcell "SprintStatusAgent Edit Row" [ref=e793]:
+                        - generic [ref=e794] [cursor=pointer]:
+                          - button "SprintStatusAgent" [ref=e795]:
+                            - generic [ref=e801]: SprintStatusAgent
+                          - button "Edit Row" [ref=e802]:
+                            - generic:
+                              - generic: 
+                      - gridcell "Available" [ref=e803]:
+                        - generic [ref=e804]:
+                          - generic [ref=e805]: 
+                          - text: Available
+                      - gridcell "Microsoft Foundry" [ref=e806]
+                      - gridcell "0" [ref=e807]
+                      - gridcell [ref=e808]
+                      - gridcell [ref=e809]
+                      - gridcell "May 10, 2026" [ref=e810]:
+                        - paragraph [ref=e811]: May 10, 2026
+                    - row "Box AI Agent Edit Row Available — May 10, 2026" [ref=e812]:
+                      - gridcell "Box AI Agent Edit Row" [ref=e813]:
+                        - generic [ref=e814] [cursor=pointer]:
+                          - button "Box AI Agent" [ref=e815]:
+                            - generic [ref=e821]: Box AI Agent
+                          - button "Edit Row" [ref=e822]:
+                            - generic:
+                              - generic: 
+                      - gridcell "Available" [ref=e823]:
+                        - generic [ref=e824]:
+                          - generic [ref=e825]: 
+                          - text: Available
+                      - gridcell [ref=e826]
+                      - gridcell "—" [ref=e827]
+                      - gridcell [ref=e828]
+                      - gridcell [ref=e829]
+                      - gridcell "May 10, 2026" [ref=e830]:
+                        - paragraph [ref=e831]: May 10, 2026
+                    - row "Quality Evaluation Agent Edit Row Draft Copilot Studio 0 May 10, 2026" [ref=e832]:
+                      - gridcell "Quality Evaluation Agent Edit Row" [ref=e833]:
+                        - generic [ref=e834] [cursor=pointer]:
+                          - button "Quality Evaluation Agent" [ref=e835]:
+                            - generic [ref=e841]: Quality Evaluation Agent
+                          - button "Edit Row" [ref=e842]:
+                            - generic:
+                              - generic: 
+                      - gridcell "Draft" [ref=e843]:
+                        - generic [ref=e844]:
+                          - generic [ref=e845]: 
+                          - text: Draft
+                      - gridcell "Copilot Studio" [ref=e846]
+                      - gridcell "0" [ref=e847]
+                      - gridcell [ref=e848]
+                      - gridcell [ref=e849]
+                      - gridcell "May 10, 2026" [ref=e850]:
+                        - paragraph [ref=e851]: May 10, 2026
+                    - row "ZJP PROD CA M365 0510_1 Edit Row Available — May 10, 2026" [ref=e852]:
+                      - gridcell "ZJP PROD CA M365 0510_1 Edit Row" [ref=e853]:
+                        - generic [ref=e854] [cursor=pointer]:
+                          - button "ZJP PROD CA M365 0510_1" [ref=e855]:
+                            - generic [ref=e861]: ZJP PROD CA M365 0510_1
+                          - button "Edit Row" [ref=e862]:
+                            - generic:
+                              - generic: 
+                      - gridcell "Available" [ref=e863]:
+                        - generic [ref=e864]:
+                          - generic [ref=e865]: 
+                          - text: Available
+                      - gridcell [ref=e866]
+                      - gridcell "—" [ref=e867]
+                      - gridcell [ref=e868]
+                      - gridcell [ref=e869]
+                      - gridcell "May 10, 2026" [ref=e870]:
+                        - paragraph [ref=e871]: May 10, 2026
+                    - row "ZJP PROD CA M365 0510_1 Edit Row Available Copilot Studio 0 May 10, 2026" [ref=e872]:
+                      - gridcell "ZJP PROD CA M365 0510_1 Edit Row" [ref=e873]:
+                        - generic [ref=e874] [cursor=pointer]:
+                          - button "ZJP PROD CA M365 0510_1" [ref=e875]:
+                            - generic [ref=e881]: ZJP PROD CA M365 0510_1
+                          - button "Edit Row" [ref=e882]:
+                            - generic:
+                              - generic: 
+                      - gridcell "Available" [ref=e883]:
+                        - generic [ref=e884]:
+                          - generic [ref=e885]: 
+                          - text: Available
+                      - gridcell "Copilot Studio" [ref=e886]
+                      - gridcell "0" [ref=e887]
+                      - gridcell [ref=e888]
+                      - gridcell [ref=e889]
+                      - gridcell "May 10, 2026" [ref=e890]:
+                        - paragraph [ref=e891]: May 10, 2026
+                    - row "NEW-DA-BCR-1 Edit Row Draft Copilot Studio 0 May 10, 2026" [ref=e892]:
+                      - gridcell "NEW-DA-BCR-1 Edit Row" [ref=e893]:
+                        - generic [ref=e894] [cursor=pointer]:
+                          - button "NEW-DA-BCR-1" [ref=e895]:
+                            - generic [ref=e901]: NEW-DA-BCR-1
+                          - button "Edit Row" [ref=e902]:
+                            - generic:
+                              - generic: 
+                      - gridcell "Draft" [ref=e903]:
+                        - generic [ref=e904]:
+                          - generic [ref=e905]: 
+                          - text: Draft
+                      - gridcell "Copilot Studio" [ref=e906]
+                      - gridcell "0" [ref=e907]
+                      - gridcell [ref=e908]
+                      - gridcell [ref=e909]
+                      - gridcell "May 10, 2026" [ref=e910]:
+                        - paragraph [ref=e911]: May 10, 2026
+                    - row "DWB 4.6.1 Edit Row Available Copilot Studio 0 May 10, 2026" [ref=e912]:
+                      - gridcell "DWB 4.6.1 Edit Row" [ref=e913]:
+                        - generic [ref=e914] [cursor=pointer]:
+                          - button "DWB 4.6.1" [ref=e915]:
+                            - generic [ref=e921]: DWB 4.6.1
+                          - button "Edit Row" [ref=e922]:
+                            - generic:
+                              - generic: 
+                      - gridcell "Available" [ref=e923]:
+                        - generic [ref=e924]:
+                          - generic [ref=e925]: 
+                          - text: Available
+                      - gridcell "Copilot Studio" [ref=e926]
+                      - gridcell "0" [ref=e927]
+                      - gridcell [ref=e928]
+                      - gridcell [ref=e929]
+                      - gridcell "May 10, 2026" [ref=e930]:
+                        - paragraph [ref=e931]: May 10, 2026
+                    - row "SprintStatusAgent Edit Row Available Microsoft Foundry 0 May 10, 2026" [ref=e932]:
+                      - gridcell "SprintStatusAgent Edit Row" [ref=e933]:
+                        - generic [ref=e934] [cursor=pointer]:
+                          - button "SprintStatusAgent" [ref=e935]:
+                            - generic [ref=e941]: SprintStatusAgent
+                          - button "Edit Row" [ref=e942]:
+                            - generic:
+                              - generic: 
+                      - gridcell "Available" [ref=e943]:
+                        - generic [ref=e944]:
+                          - generic [ref=e945]: 
+                          - text: Available
+                      - gridcell "Microsoft Foundry" [ref=e946]
+                      - gridcell "0" [ref=e947]
+                      - gridcell [ref=e948]
+                      - gridcell [ref=e949]
+                      - gridcell "May 10, 2026" [ref=e950]:
+                        - paragraph [ref=e951]: May 10, 2026
+                    - row "D365 Contact Center Admin AI Agent Edit Row Available Copilot Studio 0 May 10, 2026" [ref=e952]:
+                      - gridcell "D365 Contact Center Admin AI Agent Edit Row" [ref=e953]:
+                        - generic [ref=e954] [cursor=pointer]:
+                          - button "D365 Contact Center Admin AI Agent" [ref=e955]:
+                            - generic [ref=e961]: D365 Contact Center Admin AI Agent
+                          - button "Edit Row" [ref=e962]:
+                            - generic:
+                              - generic: 
+                      - gridcell "Available" [ref=e963]:
+                        - generic [ref=e964]:
+                          - generic [ref=e965]: 
+                          - text: Available
+                      - gridcell "Copilot Studio" [ref=e966]
+                      - gridcell "0" [ref=e967]
+                      - gridcell [ref=e968]
+                      - gridcell [ref=e969]
+                      - gridcell "May 10, 2026" [ref=e970]:
+                        - paragraph [ref=e971]: May 10, 2026
+                    - row "Old-DA-BCR-5 Edit Row Draft Copilot Studio 0 May 9, 2026" [ref=e972]:
+                      - gridcell "Old-DA-BCR-5 Edit Row" [ref=e973]:
+                        - generic [ref=e974] [cursor=pointer]:
+                          - button "Old-DA-BCR-5" [ref=e975]:
+                            - generic [ref=e981]: Old-DA-BCR-5
+                          - button "Edit Row" [ref=e982]:
+                            - generic:
+                              - generic: 
+                      - gridcell "Draft" [ref=e983]:
+                        - generic [ref=e984]:
+                          - generic [ref=e985]: 
+                          - text: Draft
+                      - gridcell "Copilot Studio" [ref=e986]
+                      - gridcell "0" [ref=e987]
+                      - gridcell [ref=e988]
+                      - gridcell [ref=e989]
+                      - gridcell "May 9, 2026" [ref=e990]:
+                        - paragraph [ref=e991]: May 9, 2026
+                    - row "LSEG Workspace Edit Row Available — May 9, 2026" [ref=e992]:
+                      - gridcell "LSEG Workspace Edit Row" [ref=e993]:
+                        - generic [ref=e994] [cursor=pointer]:
+                          - button "LSEG Workspace" [ref=e995]:
+                            - generic [ref=e1001]: LSEG Workspace
+                          - button "Edit Row" [ref=e1002]:
+                            - generic:
+                              - generic: 
+                      - gridcell "Available" [ref=e1003]:
+                        - generic [ref=e1004]:
+                          - generic [ref=e1005]: 
+                          - text: Available
+                      - gridcell [ref=e1006]
+                      - gridcell "—" [ref=e1007]
+                      - gridcell [ref=e1008]
+                      - gridcell [ref=e1009]
+                      - gridcell "May 9, 2026" [ref=e1010]:
+                        - paragraph [ref=e1011]: May 9, 2026
+                    - row "Work IQ Agent 1 Edit Row Available Copilot Studio 0 May 9, 2026" [ref=e1012]:
+                      - gridcell "Work IQ Agent 1 Edit Row" [ref=e1013]:
+                        - generic [ref=e1014] [cursor=pointer]:
+                          - button "Work IQ Agent 1" [ref=e1015]:
+                            - generic [ref=e1021]: Work IQ Agent 1
+                          - button "Edit Row" [ref=e1022]:
+                            - generic:
+                              - generic: 
+                      - gridcell "Available" [ref=e1023]:
+                        - generic [ref=e1024]:
+                          - generic [ref=e1025]: 
+                          - text: Available
+                      - gridcell "Copilot Studio" [ref=e1026]
+                      - gridcell "0" [ref=e1027]
+                      - gridcell [ref=e1028]
+                      - gridcell [ref=e1029]
+                      - gridcell "May 9, 2026" [ref=e1030]:
+                        - paragraph [ref=e1031]: May 9, 2026
+                    - row "Zava Project Analysis Edit Row Draft Copilot Studio 0 May 9, 2026" [ref=e1032]:
+                      - gridcell "Zava Project Analysis Edit Row" [ref=e1033]:
+                        - generic [ref=e1034] [cursor=pointer]:
+                          - button "Zava Project Analysis" [ref=e1035]:
+                            - generic [ref=e1041]: Zava Project Analysis
+                          - button "Edit Row" [ref=e1042]:
+                            - generic:
+                              - generic: 
+                      - gridcell "Draft" [ref=e1043]:
+                        - generic [ref=e1044]:
+                          - generic [ref=e1045]: 
+                          - text: Draft
+                      - gridcell "Copilot Studio" [ref=e1046]
+                      - gridcell "0" [ref=e1047]
+                      - gridcell [ref=e1048]
+                      - gridcell [ref=e1049]
+                      - gridcell "May 9, 2026" [ref=e1050]:
+                        - paragraph [ref=e1051]: May 9, 2026
+                    - row "Sales Close Agent Edit Row Available Copilot Studio 0 May 9, 2026" [ref=e1052]:
+                      - gridcell "Sales Close Agent Edit Row" [ref=e1053]:
+                        - generic [ref=e1054] [cursor=pointer]:
+                          - button "Sales Close Agent" [ref=e1055]:
+                            - generic [ref=e1061]: Sales Close Agent
+                          - button "Edit Row" [ref=e1062]:
+                            - generic:
+                              - generic: 
+                      - gridcell "Available" [ref=e1063]:
+                        - generic [ref=e1064]:
+                          - generic [ref=e1065]: 
+                          - text: Available
+                      - gridcell "Copilot Studio" [ref=e1066]
+                      - gridcell "0" [ref=e1067]
+                      - gridcell [ref=e1068]
+                      - gridcell [ref=e1069]
+                      - gridcell "May 9, 2026" [ref=e1070]:
+                        - paragraph [ref=e1071]: May 9, 2026
+                    - row "Workday Edit Row Available — May 9, 2026" [ref=e1072]:
+                      - gridcell "Workday Edit Row" [ref=e1073]:
+                        - generic [ref=e1074] [cursor=pointer]:
+                          - button "Workday" [ref=e1075]:
+                            - generic [ref=e1081]: Workday
+                          - button "Edit Row" [ref=e1082]:
+                            - generic:
+                              - generic: 
+                      - gridcell "Available" [ref=e1083]:
+                        - generic [ref=e1084]:
+                          - generic [ref=e1085]: 
+                          - text: Available
+                      - gridcell [ref=e1086]
+                      - gridcell "—" [ref=e1087]
+                      - gridcell [ref=e1088]
+                      - gridcell [ref=e1089]
+                      - gridcell "May 9, 2026" [ref=e1090]:
+                        - paragraph [ref=e1091]: May 9, 2026
+                - alert: ‎50‎ Agents loaded
+    - button "Help & support" [ref=e1092] [cursor=pointer]:
+      - generic [ref=e1094]: 
+      - paragraph [ref=e1095]: Help & support
+    - button "Give Feedback" [ref=e1096] [cursor=pointer]:
+      - generic [ref=e1097]:
+        - generic [ref=e1098]: 
+        - generic [ref=e1100]: Give Feedback

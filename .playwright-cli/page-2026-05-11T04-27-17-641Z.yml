@@ -1,0 +1,239 @@
+- generic [active] [ref=e1]:
+  - banner
+  - generic [ref=e4]:
+    - navigation [ref=e6]:
+      - button "Navigation menu" [expanded] [ref=e7] [cursor=pointer]:
+        - generic [ref=e8]: 
+      - menubar [ref=e10]:
+        - group [ref=e11]:
+          - menuitem "Home" [ref=e12] [cursor=pointer]:
+            - generic [ref=e13]: 
+            - generic: Home
+          - menuitem "Copilot" [ref=e14] [cursor=pointer]:
+            - img [ref=e16]
+            - generic: Copilot
+            - generic [ref=e17]: 
+          - menuitem "Agents" [expanded] [ref=e18] [cursor=pointer]:
+            - img [ref=e20]
+            - generic: Agents
+            - generic [ref=e21]: 
+          - menu "Agents" [ref=e22]:
+            - menuitem "Overview" [ref=e23] [cursor=pointer]:
+              - generic: Overview
+            - menuitem "All agents" [ref=e24] [cursor=pointer]:
+              - generic: All agents
+            - menuitem "Shadow AI" [ref=e25] [cursor=pointer]:
+              - generic: Shadow AI
+            - menuitem "Tools" [ref=e26] [cursor=pointer]:
+              - generic: Tools
+            - menuitem "Settings" [ref=e27] [cursor=pointer]:
+              - generic: Settings
+          - menuitem "Users" [ref=e28] [cursor=pointer]:
+            - generic [ref=e29]: 
+            - generic: Users
+            - generic [ref=e30]: 
+          - menuitem "Devices" [ref=e31] [cursor=pointer]:
+            - generic [ref=e32]: 
+            - generic: Devices
+            - generic [ref=e33]: 
+          - menuitem "Teams & groups" [ref=e34] [cursor=pointer]:
+            - generic [ref=e35]: 
+            - generic: Teams & groups
+            - generic [ref=e36]: 
+          - menuitem "Marketplace" [ref=e37] [cursor=pointer]:
+            - generic [ref=e38]: 
+            - generic: Marketplace
+          - menuitem "Billing" [ref=e39] [cursor=pointer]:
+            - generic [ref=e40]: 
+            - generic: Billing
+            - generic [ref=e41]: 
+          - menuitem "Setup" [ref=e42] [cursor=pointer]:
+            - generic [ref=e43]: 
+            - generic: Setup
+        - menuitem "Customize navigation" [ref=e44] [cursor=pointer]:
+          - generic [ref=e45]: 
+          - generic: Customize navigation
+        - menuitem "Show all" [ref=e46] [cursor=pointer]:
+          - generic [ref=e47]: 
+          - generic: Show all
+    - main [ref=e48]:
+      - generic [ref=e51]:
+        - generic [ref=e52]:
+          - navigation "Breadcrumb" [ref=e59]:
+            - list [ref=e61]:
+              - listitem [ref=e62]:
+                - link "Home" [ref=e63] [cursor=pointer]:
+                  - /url: "#/homepage"
+                - generic [ref=e64]: 
+              - listitem [ref=e65]:
+                - link "All agents" [ref=e66] [cursor=pointer]:
+                  - /url: "#"
+          - generic [ref=e67]:
+            - heading "All agents" [level=1] [ref=e68]
+            - generic [ref=e69]:
+              - img "Agent 365" [ref=e70]
+              - generic [ref=e71]: Agent 365
+          - generic [ref=e72]:
+            - text: Monitor and manage agents across your organization.
+            - link "Learn more about managing agents" [ref=e73] [cursor=pointer]:
+              - /url: https://learn.microsoft.com/en-us/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps?view=o365-worldwide
+        - generic [ref=e75]:
+          - tablist [ref=e76]:
+            - tab "Registry" [selected] [ref=e77] [cursor=pointer]:
+              - generic:
+                - generic:
+                  - generic: Registry
+            - tab "Map" [ref=e78] [cursor=pointer]:
+              - generic:
+                - generic:
+                  - generic: Map
+            - tab "Requests" [ref=e79] [cursor=pointer]:
+              - generic:
+                - generic:
+                  - generic: Requests
+          - tabpanel "Registry" [ref=e80]:
+            - generic [ref=e82]:
+              - generic [ref=e83]:
+                - generic [ref=e85]:
+                  - 'button "Total agents: 1,218" [ref=e86] [cursor=pointer]':
+                    - generic [ref=e87]:
+                      - generic [ref=e88]: Total agents
+                      - generic [ref=e89]: 
+                    - generic [ref=e90]: 1,218
+                  - 'button "Agents at risk: 9" [ref=e91] [cursor=pointer]':
+                    - generic [ref=e92]:
+                      - generic [ref=e93]: Agents at risk
+                      - generic [ref=e94]: 
+                    - generic [ref=e95]: "9"
+                  - 'button "Agents without owners: 0" [ref=e96] [cursor=pointer]':
+                    - generic [ref=e97]:
+                      - generic [ref=e98]: Agents without owners
+                      - generic [ref=e99]: 
+                    - generic [ref=e100]: "0"
+                  - 'button "Unmanaged agents: 6" [ref=e101] [cursor=pointer]':
+                    - generic [ref=e102]:
+                      - generic [ref=e103]: Unmanaged agents
+                      - generic [ref=e104]: 
+                    - generic [ref=e105]: "6"
+                - generic [ref=e107]:
+                  - generic [ref=e108]:
+                    - generic [ref=e109]: Registry sync
+                    - generic [ref=e110]: (preview)
+                  - generic [ref=e111]:
+                    - button "Manage" [ref=e112] [cursor=pointer]:
+                      - generic:
+                        - generic:
+                          - generic: Manage
+                    - generic [ref=e113]: ‎2‎ connections
+              - generic [ref=e114]:
+                - region "Filters" [ref=e116]:
+                  - region [ref=e117]:
+                    - heading [level=6]
+                    - generic [ref=e118]:
+                      - button "Status" [ref=e122] [cursor=pointer]:
+                        - generic [ref=e123]: Status
+                      - button "Publisher type" [ref=e127] [cursor=pointer]:
+                        - generic [ref=e128]: Publisher type
+                      - button "Platform" [ref=e132] [cursor=pointer]:
+                        - generic [ref=e133]: Platform
+                      - button "Channel" [ref=e137] [cursor=pointer]:
+                        - generic [ref=e138]: Channel
+                      - button "Data source" [ref=e142] [cursor=pointer]:
+                        - generic [ref=e143]: Data source
+                - generic [ref=e145]:
+                  - paragraph [ref=e146]: Showing ‎2‎ of ‎1,218‎ total agents
+                  - search [ref=e147]:
+                    - generic [ref=e148]:
+                      - generic [ref=e150]: 
+                      - searchbox "Search for an Agent" [ref=e151]: sprint
+                      - button "Clear search text" [ref=e153] [cursor=pointer]:
+                        - generic:
+                          - generic: 
+                  - menubar [ref=e157]:
+                    - menuitem "Refresh" [ref=e158] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                        - generic:
+                          - generic: Refresh
+                    - menuitem "Export" [ref=e159] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                        - generic:
+                          - generic: Export
+                    - menuitem "More actions" [ref=e161] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+              - grid "Agents" [ref=e165]:
+                - row "Name column with sorting enabled Status Platform Risks column with sorting enabled Active users column with sorting enabled Total sessions column with sorting enabled Date created" [ref=e166]:
+                  - columnheader "Name column with sorting enabled" [ref=e167]:
+                    - button "Name column with sorting enabled" [ref=e169]:
+                      - generic [ref=e170]: Name
+                  - button [ref=e171]
+                  - columnheader "Status" [ref=e172]:
+                    - generic [ref=e178] [cursor=pointer]:
+                      - text: Status
+                      - button "Available agents can be used by people in your organization. Blocked agents can't be used by anyone." [ref=e179]:
+                        - generic:
+                          - generic: 
+                  - button [ref=e180]
+                  - columnheader "Platform" [ref=e181]:
+                    - generic [ref=e184]: Platform
+                  - button [ref=e185]
+                  - columnheader "Risks column with sorting enabled" [ref=e186]:
+                    - button "Risks column with sorting enabled" [ref=e188]:
+                      - generic [ref=e192] [cursor=pointer]:
+                        - text: Risks
+                        - button "Only high severity risks are included. Zero high risks isn't an indication of overall risk. Other risks can be found in your security platforms." [ref=e193]:
+                          - generic:
+                            - generic: 
+                  - button [ref=e194]
+                  - columnheader "Active users column with sorting enabled" [ref=e195]:
+                    - button "Active users column with sorting enabled" [ref=e197]:
+                      - generic [ref=e198]: Active users
+                  - button [ref=e199]
+                  - columnheader "Total sessions column with sorting enabled" [ref=e200]:
+                    - button "Total sessions column with sorting enabled" [ref=e202]:
+                      - generic [ref=e203]: Total sessions
+                  - button [ref=e204]
+                  - columnheader "Date created" [ref=e205]:
+                    - button "Date created" [ref=e207]:
+                      - generic [ref=e208]: Date created
+                  - button [ref=e209]
+                - generic [ref=e210]:
+                  - row "SprintStatusAgent Edit Row Available Microsoft Foundry 0 May 10, 2026" [ref=e211]:
+                    - gridcell "SprintStatusAgent Edit Row" [ref=e212]:
+                      - generic [ref=e213] [cursor=pointer]:
+                        - button "SprintStatusAgent" [ref=e214]:
+                          - generic [ref=e220]: SprintStatusAgent
+                        - button "Edit Row" [ref=e221]:
+                          - generic:
+                            - generic: 
+                    - gridcell "Available" [ref=e222]:
+                      - generic [ref=e223]:
+                        - generic [ref=e224]: 
+                        - text: Available
+                    - gridcell "Microsoft Foundry" [ref=e225]
+                    - gridcell "0" [ref=e226]
+                    - gridcell [ref=e227]
+                    - gridcell [ref=e228]
+                    - gridcell "May 10, 2026" [ref=e229]:
+                      - paragraph [ref=e230]: May 10, 2026
+                  - row "SprintStatusAgent Edit Row Available Microsoft Foundry 0 May 10, 2026" [ref=e231]:
+                    - gridcell "SprintStatusAgent Edit Row" [ref=e232]:
+                      - generic [ref=e233] [cursor=pointer]:
+                        - button "SprintStatusAgent" [ref=e234]:
+                          - generic [ref=e240]: SprintStatusAgent
+                        - button "Edit Row" [ref=e241]:
+                          - generic:
+                            - generic: 
+                    - gridcell "Available" [ref=e242]:
+                      - generic [ref=e243]:
+                        - generic [ref=e244]: 
+                        - text: Available
+                    - gridcell "Microsoft Foundry" [ref=e245]
+                    - gridcell "0" [ref=e246]
+                    - gridcell [ref=e247]
+                    - gridcell [ref=e248]
+                    - gridcell "May 10, 2026" [ref=e249]:
+                      - paragraph [ref=e250]: May 10, 2026
+              - alert: ‎2‎ Agents loaded

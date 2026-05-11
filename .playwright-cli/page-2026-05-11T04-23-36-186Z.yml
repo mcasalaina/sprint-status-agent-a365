@@ -1,0 +1,33 @@
+- generic [ref=e5]:
+  - img "Organization background image" [ref=e6]
+  - generic [ref=e7]:
+    - generic [ref=e12]:
+      - generic [ref=e13]:
+        - img "Microsoft" [ref=e16]
+        - main [ref=e17]:
+          - generic [ref=e20]:
+            - heading "Sign in" [level=1] [ref=e24]
+            - generic [ref=e25]:
+              - alert
+              - generic [ref=e27]:
+                - textbox "Enter your email, phone, or Skype." [active] [ref=e28]:
+                  - /placeholder: Email, phone, or Skype
+                - textbox [ref=e29]
+            - generic [ref=e33]:
+              - generic [ref=e34]:
+                - text: No account?
+                - link "Create a Microsoft account" [ref=e35] [cursor=pointer]:
+                  - /url: https://login.live.com/oauth20_authorize.srf?client_id=618dd325-23f6-4b6f-8380-4df78026e39b&scope=openid+profile&redirect_uri=https%3a%2f%2fadmin.cloud.microsoft%2flanding&response_type=code+id_token&state=PYSsWiJnq70GaaibbQLELn2p5aWTbYb_V3qdN6gdcdkP89zJ-c9Naw7H6UwQq495ODlWy-iKxtC2Z-BER9la9shy1YLTC9oRZuCML5Run1S2wO_jWznhkPmAVx4gSBHw_VVvzjdNN5EsOYmZGpd2cDHhEuI20m7VPLYJyHzhoinSWuHLLsJtLF9uy3mbp1zQPHXnIkdqFw80Hj04eIenBDyoHhHPtcsKScmM5baa-GtB4SSKCAw4WYcoF1qRHWHvkTP42_znyX6Tr1vdfuEpWAx3Z4a87YkSbvm3xqLdNl5r7OYGJ37ytuWd0VYFofcQF7TxhnCxi9J-xtvlt740fMUohGUyIta0OfGBkY8wsp4rmZXE3JMPErqgf0BsWVrocNbZpE1NVCq616TBfLAlW8Vq_RP8oYmOkEP7fiTj-MUzBOB0BFkQIiROFqTipXmh&response_mode=form_post&nonce=639140702142260001.MzMyZTQyNGMtZDQ0Ni00ZTVhLTk3MzgtYjA1YTUzNDJiOTYwMjdmNmI2NzYtYTgyZS00YzU3LWIzNjktZWRjYjM1YWFmOWZh&x-client-SKU=ID_NET8_0&x-client-Ver=8.17.0.0&uaid=7953a0c5ecd9473db4008632ce6c1642&msproxy=1&issuer=mso&tenant=common&ui_locales=en-US&signup=1&lw=1&fl=easi2&epctrc=x17f1P8V8tadhZj1zUiqHcDU61f7UNXpX%2fOA5G2JXWk%3d0%3a1%3aCANARY%3auIP3zD4ZoKYGsnTXjRlFym8qtrDEnptXBEz3wsFZg%2fU%3d&epct=PAQABDgEAAAAdDD7nC9b5Q7JPd_okEQRFRXZvU3RzQXJ0aWZhY3RzCAAAAAAAR_97RZjAw32Y3bFolpdnqMm4e9soofs83jJWx-C0ybRgEm0QmMFkjOst5FqnCpTyWiPdeB-NYE0FqJKRlRLMf3E7RQ9TXfMjL9C8dOZzzxRmjZjo3tbYcTTW6ilBB4tVWHHQtxhyqGTDBZjqeKFK4DdGc4m_zbdQmSnG5j0MgEXvxSR48wSWojXvCOSpTzwxD1wsipQ0pg_x4akM02XlzCAA&jshs=0&claims=%7b%22id_token%22%3a%7b%22xms_cc%22%3a%7b%22values%22%3a%5b%22CP1%22%5d%7d%7d%7d
+                  - text: Create one!
+              - link "Can’t access your account?" [ref=e37] [cursor=pointer]:
+                - /url: "#"
+            - button "Next" [ref=e40] [cursor=pointer]
+      - button "Sign-in options" [ref=e46] [cursor=pointer]:
+        - generic [ref=e50]: Sign-in options
+    - contentinfo [ref=e51]:
+      - generic [ref=e52]:
+        - link "Terms of use" [ref=e53] [cursor=pointer]:
+          - /url: https://www.microsoft.com/en-US/servicesagreement/
+        - link "Privacy & cookies" [ref=e54] [cursor=pointer]:
+          - /url: https://privacy.microsoft.com/en-US/privacystatement
+        - button "Click here for troubleshooting information" [ref=e55] [cursor=pointer]: ...

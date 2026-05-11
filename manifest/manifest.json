@@ -6,7 +6,7 @@
     "full": "Sprint Status Intelligence Blueprint"
   },
   "description": {
-    "short": "Sprint status intelligence agent that mines M365 data for team activity, blockers, and decisions.",
+    "short": "AI teammate for sprint status, blockers, and team activity.",
     "full": "An AI Teammate that searches your emails, meetings, and Teams chats via WorkIQ to synthesize engineering sprint status. Ask about team activity, blockers, decisions, and action items."
   },
   "icons": {
