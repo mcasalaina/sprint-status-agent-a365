@@ -1,0 +1,17 @@
+.venv/
+.env
+.git/
+a365.generated.config.json
+__pycache__/
+*.pyc
+*.egg-info/
+dist/
+build/
+requirements-old.txt
+requirements-unpinned.txt
+requirements-frozen.txt
+requirements-deploy.txt
+uv.lock
+PLAN.md
+*.md
+!instructions.txt

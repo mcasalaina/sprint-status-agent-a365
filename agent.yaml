@@ -1,0 +1,15 @@
+kind: hosted
+name: SprintStatusAgent
+protocols:
+  - protocol: responses
+    version: 1.0.0
+resources:
+  cpu: "0.25"
+  memory: "0.5Gi"
+environment_variables:
+  - name: AZURE_AI_MODEL_DEPLOYMENT_NAME
+    value: ${AZURE_AI_MODEL_DEPLOYMENT_NAME}
+  - name: WORKIQ_MAIL_URL
+    value: "https://agent365.svc.cloud.microsoft/agents/servers/mcp_MailTools"
+  - name: WORKIQ_CONNECTION_ID
+    value: "WorkIQMail"
